@@ -1,0 +1,11 @@
+title: Оплата проїзду в київському метро
+
+markdown: kramdown
+
+exclude:
+  - node_modules
+  - src
+  - gulpfile.js
+  - package.json
+  - metro-vending.sublime-project
+  - metro-vending.sublime-workspace

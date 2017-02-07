@@ -1,0 +1,14 @@
+
+/*  Base styles
+    ======================================================== */
+
+body {
+  background-color: $default-blue;
+  color: $text;
+  user-select: none;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
