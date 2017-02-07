@@ -1,0 +1,16 @@
+
+/*  Header
+    ======================================================== */
+
+.header {
+  height: 60px; // 200 - 70 - 70
+  padding: 70px 0;
+  
+  &__left {
+    float: left;
+  }
+
+  &__right {
+    float: right;
+  }
+}

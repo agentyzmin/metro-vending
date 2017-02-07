@@ -6,9 +6,16 @@ body {
   background-color: $default-blue;
   color: $text;
   user-select: none;
+  font-family: 'ProbaNavWeb';
+  font-size: 40px;
+}
+
+.wrapper {
+  position: relative;
+  height: 1920px;
 }
 
 .container {
-  width: 1080px;
+  width: 880px;
   margin: 0 auto;
 }

@@ -1,7 +1,38 @@
 /*  Variables
     ======================================================== */
 /* #68657d; */
-/* Basic things */
+/*  ProbaNav Webfont
+    ======================================================== */
+@font-face {
+  font-family: 'ProbaNavWeb';
+  src: url("../fonts/probanav2-light-webfont.ttf");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProbaNavWeb';
+  src: url("../fonts/probanav2-regular-webfont.ttf");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProbaNavWeb';
+  src: url("../fonts/probanav2-medium-webfont.ttf");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProbaNavWeb';
+  src: url("../fonts/probanav2-semibold-webfont.ttf");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ProbaNavWeb';
+  src: url("../fonts/probanav2-bold-webfont.ttf");
+  font-weight: 700;
+  font-style: normal; }
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -137,6 +168,45 @@ td,
 th {
   padding: 0; }
 
+/*  Helper classes, mixins etc.
+    ======================================================== */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*  Buttons
+    ======================================================== */
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.1;
+  background-color: #514f68;
+  color: #b9b8c9;
+  border: none;
+  padding: 21px 22px;
+  text-decoration: none;
+  border-radius: 8px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  box-shadow: 0 6px 0 #151527, inset 0 2px 0 rgba(123, 131, 217, 0.25); }
+  .btn:active {
+    background-color: #42405e;
+    box-shadow: 0 5px 0 #151527, inset 0 2px 0 rgba(123, 131, 217, 0.05); }
+
+.btn--lang-switch {
+  letter-spacing: 0.075em;
+  margin-top: -14px;
+  background-image: url("../i/icon-globe.png");
+  background-repeat: no-repeat;
+  background-position: 20px 21px;
+  padding-left: 58px; }
+
 /*  Base styles
     ======================================================== */
 body {
@@ -145,8 +215,84 @@ body {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none; }
+          user-select: none;
+  font-family: 'ProbaNavWeb';
+  font-size: 40px; }
+
+.wrapper {
+  position: relative;
+  height: 1920px; }
 
 .container {
-  width: 1080px;
+  width: 880px;
   margin: 0 auto; }
+
+/*  Header
+    ======================================================== */
+.header {
+  height: 60px;
+  padding: 70px 0; }
+  .header__left {
+    float: left; }
+  .header__right {
+    float: right; }
+
+/*  Footer
+    ======================================================== */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.payment-types-link {
+  display: block;
+  background-color: #151527; }
+  .payment-types-link:active {
+    background-color: #111120; }
+
+.payment-types-link__container {
+  background: url("../i/icon-info.png") no-repeat 0 50%;
+  padding: 36px 0 36px; }
+
+.payment-types-link__text {
+  display: inline-block;
+  padding-right: 35px;
+  padding-left: 70px;
+  background: url("../i/icon-arrow-right.png") no-repeat right 65%; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.mainpage-links {
+  margin: 0 -20px;
+  padding: 0;
+  overflow: hidden; }
+  .mainpage-links__item {
+    margin: 0 20px 40px;
+    padding: 0;
+    float: left;
+    list-style-type: none; }
+  .mainpage-links__link {
+    display: block;
+    width: 320px;
+    height: 85px;
+    padding: 180px 50px 35px;
+    border-radius: 8px;
+    font-size: 40px;
+    white-space: normal;
+    color: #fff;
+    background-repeat: no-repeat; }
+    .mainpage-links__link--ticket {
+      background-image: url("../i/mainpage/ticket.png");
+      background-position: 50% 37px; }
+    .mainpage-links__link--card-recharge {
+      background-image: url("../i/mainpage/card-recharge.png");
+      background-position: 50% 48px; }
+    .mainpage-links__link--metropass {
+      background-image: url("../i/mainpage/metropass.png");
+      background-position: 50% 43px; }
+    .mainpage-links__link--card-purchase {
+      background-image: url("../i/mainpage/card-purchase.png");
+      background-position: 50% 27px; }
