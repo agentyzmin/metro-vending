@@ -206,6 +206,44 @@ th {
   background-position: 20px 21px;
   padding-left: 58px; }
 
+.btn--big-pic {
+  display: block;
+  width: 320px;
+  height: 85px;
+  padding: 180px 50px 35px;
+  border-radius: 8px;
+  font-size: 40px;
+  white-space: normal;
+  color: #fff;
+  background-repeat: no-repeat; }
+  .btn--big-pic--ticket {
+    background-image: url("../i/mainpage/ticket.png");
+    background-position: 50% 37px; }
+  .btn--big-pic--card-recharge {
+    background-image: url("../i/mainpage/card-recharge.png");
+    background-position: 50% 48px; }
+  .btn--big-pic--metropass {
+    background-image: url("../i/mainpage/metropass.png");
+    background-position: 50% 43px; }
+  .btn--big-pic--card-purchase {
+    background-image: url("../i/mainpage/card-purchase.png");
+    background-position: 50% 27px; }
+
+.btn--pseudo-big-pic {
+  display: block;
+  background-color: transparent;
+  white-space: normal;
+  text-align: left;
+  border: 2px solid #514f68;
+  padding: 30px 42px;
+  line-height: 1.2;
+  width: 332px;
+  height: 236px;
+  box-shadow: none; }
+  .btn--pseudo-big-pic:active {
+    box-shadow: none;
+    background-color: transparent; }
+
 /*  Base styles
     ======================================================== */
 body {
@@ -276,25 +314,3 @@ a {
     padding: 0;
     float: left;
     list-style-type: none; }
-  .mainpage-links__link {
-    display: block;
-    width: 320px;
-    height: 85px;
-    padding: 180px 50px 35px;
-    border-radius: 8px;
-    font-size: 40px;
-    white-space: normal;
-    color: #fff;
-    background-repeat: no-repeat; }
-    .mainpage-links__link--ticket {
-      background-image: url("../i/mainpage/ticket.png");
-      background-position: 50% 37px; }
-    .mainpage-links__link--card-recharge {
-      background-image: url("../i/mainpage/card-recharge.png");
-      background-position: 50% 48px; }
-    .mainpage-links__link--metropass {
-      background-image: url("../i/mainpage/metropass.png");
-      background-position: 50% 43px; }
-    .mainpage-links__link--card-purchase {
-      background-image: url("../i/mainpage/card-purchase.png");
-      background-position: 50% 27px; }

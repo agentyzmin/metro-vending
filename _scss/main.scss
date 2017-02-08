@@ -27,37 +27,4 @@ a {
     float: left;
     list-style-type: none;
   }
-
-  &__link {
-    display: block;
-    width: 320px; // 400px - 50px - 50px
-    height: 85px; // 300px - 180px - 35px
-    padding: 180px 50px 35px;
-    border-radius: 8px;
-    font-size: 40px;
-    white-space: normal;
-    color: #fff;
-    
-    background-repeat: no-repeat;
-    
-    &--ticket {
-      background-image: url('../i/mainpage/ticket.png');
-      background-position: 50% 37px;
-    }
-
-    &--card-recharge {
-      background-image: url('../i/mainpage/card-recharge.png');
-      background-position: 50% 48px;
-    }
-
-    &--metropass {
-      background-image: url('../i/mainpage/metropass.png');
-      background-position: 50% 43px;
-    }
-
-    &--card-purchase {
-      background-image: url('../i/mainpage/card-purchase.png');
-      background-position: 50% 27px;
-    }
-  }
 }

@@ -4,8 +4,6 @@
 
 .btn {
   display: inline-block;
-  // text-transform: uppercase;
-  // letter-spacing: 0.04em;
   text-align: center;
   white-space: nowrap;
   font-size: 28px;
@@ -20,13 +18,12 @@
   user-select: none;
   
   box-shadow: 0 6px 0 $darkblue,
-              inset 0 2px 0 rgba(#7b83d9, 0.25);
-  // text-shadow: 0 1px 2px rgba(#000, 0.15);
+              inset 0 2px 0 rgba($btn-inner-shadow, 0.25);
   
   &:active {
     background-color: $btn-active;
     box-shadow: 0 5px 0 $darkblue,
-                inset 0 2px 0 rgba(#7b83d9, 0.05);
+                inset 0 2px 0 rgba($btn-inner-shadow, 0.05);
   }
 }
 
@@ -36,4 +33,54 @@
   background-repeat: no-repeat;
   background-position: 20px 21px;
   padding-left: 58px;
+}
+
+.btn--big-pic {
+  display: block;
+  width: 320px; // 400px - 50px - 50px
+  height: 85px; // 300px - 180px - 35px
+  padding: 180px 50px 35px;
+  border-radius: 8px;
+  font-size: 40px;
+  white-space: normal;
+  color: $text;
+  background-repeat: no-repeat;
+  
+    &--ticket {
+      background-image: url('../i/mainpage/ticket.png');
+      background-position: 50% 37px;
+    }
+
+    &--card-recharge {
+      background-image: url('../i/mainpage/card-recharge.png');
+      background-position: 50% 48px;
+    }
+
+    &--metropass {
+      background-image: url('../i/mainpage/metropass.png');
+      background-position: 50% 43px;
+    }
+
+    &--card-purchase {
+      background-image: url('../i/mainpage/card-purchase.png');
+      background-position: 50% 27px;
+    }
+}
+
+.btn--pseudo-big-pic {
+  display: block;
+  background-color: transparent;
+  white-space: normal;
+  text-align: left;
+  border: 2px solid $btn-bg;
+  padding: 30px 42px;
+  line-height: 1.2;
+  width: 332px; // 420 - 2*2 - 42*2
+  height: 236px; // 300 - 2*2 - 30*2
+  box-shadow: none;
+  
+  &:active {
+    box-shadow: none;
+    background-color: transparent;
+  }
 }
