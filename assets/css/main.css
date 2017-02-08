@@ -201,7 +201,6 @@ th {
 
 .btn--lang-switch {
   letter-spacing: 0.075em;
-  margin-top: -14px;
   background-image: url("../i/icon-globe.png");
   background-repeat: no-repeat;
   background-position: 20px 21px;
@@ -230,12 +229,15 @@ body {
 /*  Header
     ======================================================== */
 .header {
-  height: 60px;
-  padding: 70px 0; }
+  height: 140px;
+  padding: 60px 0 0; }
   .header__left {
     float: left; }
   .header__right {
     float: right; }
+
+.metro-logo {
+  margin-top: 10px; }
 
 /*  Footer
     ======================================================== */

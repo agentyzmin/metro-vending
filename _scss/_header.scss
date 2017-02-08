@@ -3,8 +3,8 @@
     ======================================================== */
 
 .header {
-  height: 60px; // 200 - 70 - 70
-  padding: 70px 0;
+  height: 140px; // 200 - 60
+  padding: 60px 0 0;
   
   &__left {
     float: left;
@@ -13,4 +13,8 @@
   &__right {
     float: right;
   }
+}
+
+.metro-logo {
+  margin-top: 10px;
 }
