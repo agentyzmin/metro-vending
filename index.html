@@ -1,66 +1,117 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Термінали оплати проїзду в київському метро</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
 
-<div class="wrapper">
+    <style>
+      /* Styles just for this temporary page. No separate stylesheet needed */
+      body {
+        font-size: 16px;
+      }
 
-  <div class="header">
-    <div class="container clearfix">
-      <div class="header__left">
-        <div class="metro-logo">
-          <img src="./assets/i/metro-logo.png" width="81" height="60">
-        </div>
-      </div>
-      <div class="header__right">
-        <a class="btn btn--lang-switch" href="#">UKR</a>
-      </div>
-    </div>
-  </div> <!-- /header -->
+      .header {
+        margin-bottom: 40px;
+      }
 
-  <div class="main">
-    <div class="container">
-      
-      <ul class="mainpage-links">
-        <li class="mainpage-links__item">
-          <a class="mainpage-links__link btn btn--big-pic btn--big-pic--ticket" href="#">
-            Придбати разовий квиток
-          </a>
-        </li>
+      .logo {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 20px;
+      }
 
-        <li class="mainpage-links__item">
-          <a class="mainpage-links__link btn btn--big-pic btn--big-pic--card-recharge" href="#">
-            Поповнити картку метро
-          </a>
-        </li>
+      h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 42px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        top: 4px;
+      }
 
-        <li class="mainpage-links__item">
-          <a class="mainpage-links__link btn btn--big-pic btn--big-pic--metropass" href="#">
-            Підключити MetroPass
-          </a>
-        </li>
+      h2 {
+        font-size: 21px;
+        margin-bottom: 0.5em;
+      }
 
-        <li class="mainpage-links__item">
-          <a class="mainpage-links__link btn btn--big-pic btn--big-pic--card-purchase" href="#">
-            Купити картку метро
-          </a>
-        </li>
+      a {
+        color: #C5C7EB;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(197,199,235,0.3);
+      }
 
-        <!-- <li class="mainpage-links__item">
-          <div class="btn btn--pseudo-big-pic">
-            Придбайте картку метро у іншому автоматі
+      .container {
+        padding-top: 80px;
+        width: 940px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      ul {
+        margin: 0.5em 0 2em;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 0.5em;
+        list-style-type: none;
+      }
+
+      .disabled {
+        opacity: 0.3;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <div class="container">
+
+        <div class="header">
+          <div class="logo">
+            <img src="/assets/i/metro-logo.png" alt="Київське метро" width="81" height="60">
           </div>
-        </li> -->
-      </ul>
+
+          <h1>Готові сторінки</h1>
+        </div>
+
+        <h2>00. Головний екран</h2>
+        <ul>
+          <li><a href="./00-start/">Головна (доступно все)</a></li>
+          <li><a href="./00-start-no-cards/">Головна (без продажу карток метро)</a></li>
+          <li class="disabled">Види оплати</li>
+          <li class="disabled">Вибір мови</li>
+        </ul>
+        
+        <h2>01. Разові квитки</h2>
+        <ul>
+          <li><a href="./01-tickets/">Головна</a></li>
+          <li class="disabled">Готівка: очікування купюри</li>
+          <li class="disabled">Готівка: зарахування грошей</li>
+          <li class="disabled">Готівка: внесіть ще</li>
+          <li class="disabled">Готівка: купюру не розпізнано</li>
+          <li class="disabled">Готівка: вставте меншу купюру</li>
+          <li class="disabled">Готівка: візміть квиток</li>
+          <li class="disabled">Картка: очікування картки</li>
+          <li class="disabled">Картка: зчитування картки</li>
+          <li class="disabled">Картка: пін-код</li>
+          <li class="disabled">Картка: процес оплати</li>
+          <li class="disabled">Картка: заберіть картку</li>
+          <li class="disabled">Картка: невірний пін-код</li>
+          <li class="disabled">Картка: помилка оплати (з кнопками)</li>
+          <li class="disabled">Картка: недостатньо коштів</li>
+          <li class="disabled">Картка: помилка оплати (без кнопок)</li>
+        </ul>
+
+        <h2 class="disabled">02-1. Картка метро</h2>
+        <h2 class="disabled">02-2. Проїзний метро</h2>
+        <h2 class="disabled">03. MetroPass</h2>
+        <h2 class="disabled">04. Придбання картки</h2>
+      </div>
 
     </div>
-  </div> <!-- /main -->
-
-  <div class="footer">
-    <a class="payment-types-link" href="#">
-      <div class="container payment-types-link__container">
-        <span class="payment-types-link__text">Види оплати проїзду</span>
-      </div>
-    </a>
-  </div> <!-- /footer -->
-
-</div> <!-- /wrapper -->
+  </body>
+</html>

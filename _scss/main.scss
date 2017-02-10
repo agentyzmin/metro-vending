@@ -3,28 +3,26 @@
 @import 'normalize.modified';
 @import 'helpers';
 
-@import 'buttons';
-
 @import 'base';
+@import 'typography';
 
 @import 'header';
 @import 'footer';
+@import 'buttons';
 
-a {
-  text-decoration: none;
+@import 'tickets';
+
+.notice {
+  margin: 25px 0;
+  font-size: 28px;
   color: #fff;
-}
-
-.mainpage-links {
-  margin: 0 -20px;
-  padding: 0;
-  overflow: hidden;
+  min-height: 40px; // icon height
+  padding-top: 3px; // for the perfect alignment with icon
+  background-repeat: no-repeat;
+  background-position: 0 0;
   
-  &__item {
-    margin: 0 20px 40px;
-    padding: 0;
-    
-    float: left;
-    list-style-type: none;
+  &--warning {
+    background: url('../i/icon-warning.png') no-repeat 0 0;
+    padding-left: 55px;
   }
 }

@@ -3,10 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
   </head>
 
   <body>
-    {{ content }}
+    <div class="wrapper">
+
+      {% include header.html %}
+
+      {{ content }}
+    </div>
   </body>
 </html>

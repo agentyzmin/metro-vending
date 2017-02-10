@@ -3,8 +3,12 @@
     ======================================================== */
 
 .header {
-  height: 140px; // 200 - 60
-  padding: 60px 0 0;
+  
+  &__container {
+    height: 140px; // 200 - 60
+    padding-top: 60px;
+    overflow: hidden;
+  }
   
   &__left {
     float: left;
@@ -16,5 +20,9 @@
 }
 
 .metro-logo {
-  margin-top: 10px;
+  display: inline;
+  position: relative;
+  margin-right: 30px;
+  top: 8px;
+  vertical-align: top;
 }

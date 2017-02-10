@@ -1,0 +1,48 @@
+<div class="main">
+  <div class="container">
+    
+    <ul class="buttons-list">
+      <li class="buttons-list__item">
+        <a class="btn btn--big-pic btn--big-pic--ticket" href="../01-tickets/">
+          Придбати разовий квиток
+        </a>
+      </li>
+
+      <li class="buttons-list__item">
+        <a class="btn btn--big-pic btn--big-pic--card-recharge" href="#">
+          Поповнити картку метро
+        </a>
+      </li>
+
+      <li class="buttons-list__item">
+        <a class="btn btn--big-pic btn--big-pic--metropass" href="#">
+          Підключити MetroPass
+        </a>
+      </li>
+
+      {% if page.cards-available %}
+      <li class="buttons-list__item">
+        <a class="btn btn--big-pic btn--big-pic--card-purchase" href="#">
+          Купити картку метро
+        </a>
+      </li>
+
+      {% else %}
+      <li class="buttons-list__item">
+        <div class="btn btn--pseudo-big-pic">
+          Придбайте картку метро у іншому автоматі
+        </div>
+      </li>
+      {% endif %}
+    </ul>
+
+  </div> <!-- /container -->
+</div> <!-- /main -->
+
+<div class="footer">
+  <a class="payment-types-link" href="#">
+    <div class="container payment-types-link__container">
+      <span class="payment-types-link__text">Види оплати проїзду</span>
+    </div>
+  </a>
+</div> <!-- /footer -->

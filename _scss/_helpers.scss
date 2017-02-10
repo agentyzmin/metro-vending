@@ -2,10 +2,3 @@
 /*  Helper classes, mixins etc.
     ======================================================== */
 
-.clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}

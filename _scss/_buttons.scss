@@ -18,13 +18,17 @@
   user-select: none;
   
   box-shadow: 0 6px 0 $darkblue,
-              inset 0 2px 0 rgba($btn-inner-shadow, 0.25);
+              inset 0 2px 0 $btn-inner-shadow;
   
   &:active {
     background-color: $btn-active;
     box-shadow: 0 5px 0 $darkblue,
-                inset 0 2px 0 rgba($btn-inner-shadow, 0.05);
+                inset 0 2px 0 $btn-active;
   }
+}
+
+.btn--back {
+  vertical-align: top;
 }
 
 .btn--lang-switch {
@@ -43,27 +47,37 @@
   border-radius: 8px;
   font-size: 40px;
   white-space: normal;
-  color: $text;
+  color: $btn--big-pic-text;
   background-repeat: no-repeat;
   
     &--ticket {
-      background-image: url('../i/mainpage/ticket.png');
-      background-position: 50% 37px;
+      background-image: url('../i/big-button-icons/ticket.png');
+      background-position: 50% 46px;
     }
 
     &--card-recharge {
-      background-image: url('../i/mainpage/card-recharge.png');
+      background-image: url('../i/big-button-icons/card-recharge.png');
       background-position: 50% 48px;
     }
 
     &--metropass {
-      background-image: url('../i/mainpage/metropass.png');
+      background-image: url('../i/big-button-icons/metropass.png');
       background-position: 50% 43px;
     }
 
     &--card-purchase {
-      background-image: url('../i/mainpage/card-purchase.png');
+      background-image: url('../i/big-button-icons/card-purchase.png');
       background-position: 50% 27px;
+    }
+
+    &--payment-cash {
+      background-image: url('../i/big-button-icons/payment-cash.png');
+      background-position: 50% 40px;
+    }
+
+    &--payment-card {
+      background-image: url('../i/big-button-icons/payment-card.png');
+      background-position: 50% 40px;
     }
 }
 
@@ -82,5 +96,20 @@
   &:active {
     box-shadow: none;
     background-color: transparent;
+  }
+}
+
+.buttons-list {
+  margin: 0 -20px;
+  padding: 0;
+  overflow: hidden;
+  
+  &__item {
+    width: 420px;
+    margin: 0 20px 40px;
+    padding: 0;
+    
+    float: left;
+    list-style-type: none;
   }
 }

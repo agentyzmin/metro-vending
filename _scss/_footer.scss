@@ -12,6 +12,7 @@
 .payment-types-link {
   display: block;
   background-color: $darkblue;
+  color: #fff;
   
   &:active {
     background-color: darken($darkblue, 2%);

@@ -1,0 +1,28 @@
+
+/*  01-Tickets
+    ======================================================== */
+
+.ticket-info {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  
+  &__text {
+    float: left;
+    width: 500px; // 535 - 35
+    padding-right: 35px;
+    margin-right: 40px;
+  }
+
+  &__figure {
+    float: left;
+    width: 305px;
+    margin-top: 45px;
+    text-align: right;
+  }
+
+  &__img {
+    position: relative;
+    right: -3px;
+  }
+}
