@@ -12,9 +12,11 @@ var cssFiles = '_scss/**/*.*';
 
 gulp.task('css', () => {
   gulp.src(cssFiles)
-   .pipe(sass())
-   .pipe(postcss([ autoprefixer() ]))
-   .pipe(gulp.dest('assets/css'));
+    .pipe(sass({
+      outputStyle: 'expanded'
+    }))
+    .pipe(postcss([ autoprefixer() ]))
+    .pipe(gulp.dest('assets/css'));
 });
 
 gulp.task('jekyll', () => {
