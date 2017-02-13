@@ -506,7 +506,7 @@ h2 + .buttons-list {
   background-color: #151527;
   border-radius: 8px;
   margin: 20px 0 80px;
-  padding: 35px 40px 30px;
+  padding: 33px 40px;
   line-height: 1.2;
   color: #fff;
   box-shadow: 0 2px 0 #424261, inset 0 4px 0 #020118;
@@ -516,6 +516,7 @@ h2 + .buttons-list {
   font-size: 160px;
   font-weight: 500;
   line-height: 1;
+  margin-bottom: 7px;
 }
 
 .tableau__currency {
