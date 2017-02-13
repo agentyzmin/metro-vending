@@ -17,14 +17,18 @@
   border-radius: 8px;
   user-select: none;
   
-  box-shadow: 0 6px 0 $darkblue,
+  box-shadow: 0 6px 0 $btn-shadow,
               inset 0 2px 0 $btn-inner-shadow;
   
   &:active {
     background-color: $btn-active;
-    box-shadow: 0 5px 0 $darkblue,
+    box-shadow: 0 5px 0 $btn-shadow,
                 inset 0 2px 0 $btn-active;
   }
+}
+
+.btn--small {
+  padding: 15px 24px;
 }
 
 .btn--back {
@@ -112,4 +116,8 @@
     float: left;
     list-style-type: none;
   }
+}
+
+h2 + .buttons-list {
+  margin-top: 30px;
 }

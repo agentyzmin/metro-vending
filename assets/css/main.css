@@ -239,7 +239,7 @@ a {
 }
 
 p {
-  margin: 0 0 0.5em;
+  margin: 0;
 }
 
 h1, h2, h3,
@@ -257,131 +257,37 @@ h1 {
 
 h2 {
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 h3 {
-  font-size: 14px;
-  color: #9a97b3;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-top: 24px;
-  margin-bottom: 8px;
-  letter-spacing: 0.04em;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
 .text {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 28px;
   line-height: 1.32;
   margin-bottom: 20px;
-  /* Sizes */
-  /* Colors */
-  /* Combined */
 }
 
-.text--large {
-  font-size: 54px;
-}
-
-.text--call {
-  color: #f4dd80;
-}
-
-.text--fare {
-  color: #f4dd80;
-}
-
-.text--fare-green {
-  color: #24ac66;
-}
-
-.text--currency {
-  color: #76748c;
-}
-
-.text--success {
-  color: #55c58f;
-}
-
-.text--details {
-  margin-top: 2px;
-  font-size: 30px;
-  color: #76748c;
-}
-
-.text--description {
-  font-size: 30px;
-  color: #9d99b4;
-  max-width: 640px;
-}
-
-.text--notice {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.text--medium {
-  font-weight: 500;
-}
-
-.sum-fraction {
+.sum-fraction,
+.currency {
   font-size: 0.8em;
 }
 
-/*  Header
-    ======================================================== */
-.header__container {
-  height: 140px;
-  padding-top: 60px;
-  overflow: hidden;
-}
-
-.header__left {
-  float: left;
-}
-
-.header__right {
-  float: right;
-}
-
-.metro-logo {
-  display: inline;
-  position: relative;
-  margin-right: 30px;
-  top: 8px;
-  vertical-align: top;
-}
-
-/*  Footer
-    ======================================================== */
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.payment-types-link {
-  display: block;
-  background-color: #151527;
+.instructions {
+  font-size: 40px;
   color: #fff;
+  font-weight: 300;
 }
 
-.payment-types-link:active {
-  background-color: #111120;
-}
-
-.payment-types-link__container {
-  background: url("../i/icon-info.png") no-repeat 0 50%;
-  padding: 36px 0 36px;
-}
-
-.payment-types-link__text {
-  display: inline-block;
-  padding-right: 35px;
-  padding-left: 70px;
-  background: url("../i/icon-arrow-right.png") no-repeat right 65%;
+.instructions__title {
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: #f4dd80;
+  font-weight: 500;
 }
 
 /*  Buttons
@@ -409,6 +315,10 @@ h3 {
 .btn:active {
   background-color: #4a4761;
   box-shadow: 0 5px 0 #151527, inset 0 2px 0 #4a4761;
+}
+
+.btn--small {
+  padding: 15px 24px;
 }
 
 .btn--back {
@@ -495,6 +405,122 @@ h3 {
   padding: 0;
   float: left;
   list-style-type: none;
+}
+
+h2 + .buttons-list {
+  margin-top: 30px;
+}
+
+/*  Header
+    ======================================================== */
+.header__container {
+  height: 140px;
+  padding-top: 60px;
+  overflow: hidden;
+}
+
+.header__left {
+  float: left;
+}
+
+.header__right {
+  float: right;
+}
+
+.metro-logo {
+  display: inline;
+  position: relative;
+  margin-right: 30px;
+  top: 8px;
+  vertical-align: top;
+}
+
+/*  Footer
+    ======================================================== */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.footer__container {
+  position: relative;
+}
+
+.footer__left, .footer__right {
+  position: absolute;
+  bottom: 20px;
+}
+
+.footer__left {
+  left: 0;
+}
+
+.footer__right {
+  right: 0;
+}
+
+.footer__img {
+  display: block;
+}
+
+.footer__hint {
+  width: 440px;
+}
+
+.footer__hint-btn-wrapper {
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+.payment-types-link {
+  display: block;
+  background-color: #151527;
+  color: #fff;
+}
+
+.payment-types-link:active {
+  background-color: #111120;
+}
+
+.payment-types-link__container {
+  background: url("../i/icon-info.png") no-repeat 0 50%;
+  padding: 36px 0 36px;
+}
+
+.payment-types-link__text {
+  display: inline-block;
+  padding-right: 35px;
+  padding-left: 70px;
+  background: url("../i/icon-arrow-right.png") no-repeat right 65%;
+}
+
+.icon-waiting-for-cash {
+  margin-right: -20px;
+}
+
+/*  Tableau
+    ======================================================== */
+.tableau {
+  background-color: #151527;
+  border-radius: 8px;
+  margin: 20px 0 80px;
+  padding: 35px 40px 30px;
+  line-height: 1.2;
+  color: #fff;
+  box-shadow: 0 2px 0 #424261, inset 0 4px 0 #020118;
+}
+
+.tableau__sum {
+  font-size: 160px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.tableau__currency {
+  font-size: 0.75em;
+  color: #68657d;
 }
 
 /*  01-Tickets

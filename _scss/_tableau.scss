@@ -1,0 +1,26 @@
+
+/*  Tableau
+    ======================================================== */
+
+.tableau {
+  background-color: $darkblue;
+  border-radius: 8px;
+  margin: 20px 0 80px;
+  padding: 35px 40px 30px;
+  line-height: 1.2;
+  color: #fff;
+  
+  box-shadow: 0 2px 0 $tableau-shadow,
+              inset 0 4px 0 $tableau-inner-shadow;
+  
+  &__sum {
+    font-size: 160px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  &__currency {
+    font-size: 0.75em;
+    color: $lightblue;
+  }
+}

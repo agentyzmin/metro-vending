@@ -7,6 +7,37 @@
   right: 0;
   bottom: 0;
   left: 0;
+  
+  &__container {
+    position: relative;
+  }
+
+  &__left,
+  &__right {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  &__left {
+    left: 0;
+  }
+
+  &__right {
+    right: 0;
+  }
+
+  &__img {
+    display: block;
+  }
+
+  &__hint {
+    width: 440px;
+  }
+
+  &__hint-btn-wrapper {
+    margin-top: 25px;
+    margin-bottom: 60px;
+  }
 }
 
 .payment-types-link {
@@ -31,3 +62,6 @@
   background: url('../i/icon-arrow-right.png') no-repeat right 65%;
 }
 
+.icon-waiting-for-cash {
+  margin-right: -20px;
+}

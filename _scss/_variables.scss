@@ -2,24 +2,33 @@
 /*  Variables
     ======================================================== */
 
-$default-blue:        #2b283d;
-$text:                #ceced9; // #fff;
+$yellow:                #f4dd80;
+$metro-green:           #24ac66;
+$darkblue:              #151527;
+$lightblue:             #68657d; // #9a97b3;
+$lightblue-pale:        #76748c;
+$green:                 #24ac66;
+$lightgreen:            #55c58f;
 
-$yellow:              #f4dd80;
-$metro-green:         #24ac66;
-$darkblue:            #151527;
-$lightblue:           #9a97b3; // #68657d;
-$lightblue-pale:      #76748c;
-$green:               #24ac66;
-$lightgreen:          #55c58f;
 
-$btn-bg:              #68657d;
-$btn-text:            #b9b8c9;
-$btn--big-pic-text:   #fff;
-$btn-hover:           #6f6c89;
-$btn-active:          #4a4761;
-$btn-inner-shadow:    #6c6c93;
+$background:            #2b283d;
+$text:                  #ceced9; // #fff;
+$link:                  $yellow;
 
-$modal-overlay:       #110f19;
-$progress-bar-bg:     #211e2f;
-$progress-bar-value:  #514f68;
+
+$btn-bg:                $lightblue;
+$btn-text:              #b9b8c9;
+$btn--big-pic-text:     #fff;
+$btn-hover:             #6f6c89;
+$btn-active:            #4a4761;
+$btn-shadow:            $darkblue;
+$btn-inner-shadow:      #6c6c93;
+
+$tableau-inner-shadow:  #020118;
+$tableau-shadow:        #424261;
+
+$modal-overlay:         #110f19;
+$progress-bar-bg:       #211e2f;
+$progress-bar-value:    #514f68;
+  
+$instructions-title:    $yellow;

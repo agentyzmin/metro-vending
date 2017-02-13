@@ -10,12 +10,12 @@ body {
 }
 
 a {
-  color: $yellow;
+  color: $link;
   text-decoration: underline;
 }
 
 p {
-  margin: 0 0 0.5em;
+  margin: 0;
 }
 
 h1, h2, h3,
@@ -33,60 +33,35 @@ h1 {
 
 h2 {
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 h3 {
-  font-size: 14px;
-  color: $lightblue;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-top: 24px;
-  margin-bottom: 8px;
-  letter-spacing: 0.04em;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
 .text {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 28px;
   line-height: 1.32;
   margin-bottom: 20px;
-  
-  /* Sizes */
-  &--large {
-    font-size: 54px;
-  }
-
-  /* Colors */
-  &--call        { color: $yellow; }
-  &--fare        { color: $yellow; }
-  &--fare-green  { color: $green; }
-  &--currency    { color: $lightblue-pale; }
-  &--success     { color: $lightgreen; }
-
-  /* Combined */
-  &--details {
-    margin-top: 2px;
-    font-size: 30px;
-    color: $lightblue-pale;
-  }
-
-  &--description {
-    font-size: 30px;
-    color: #9d99b4;
-    max-width: 640px;
-  }
-
-  &--notice {
-    font-size: 14px;
-    font-weight: 400;
-  }
-
-  &--medium {
-    font-weight: 500;
-  }
 }
 
-.sum-fraction {
+.sum-fraction,
+.currency {
   font-size: 0.8em;
+}
+
+.instructions {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 300;
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: $instructions-title;
+    font-weight: 500;
+  }
 }
