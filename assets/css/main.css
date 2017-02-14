@@ -290,6 +290,11 @@ h3 {
   font-weight: 500;
 }
 
+.instructions--warning {
+  padding-left: 110px;
+  background: url("../i/icon-warning.png") no-repeat 0 0;
+}
+
 /*  Buttons
     ======================================================== */
 .btn {
@@ -562,6 +567,6 @@ h2 + .buttons-list {
 }
 
 .notice--warning {
-  background: url("../i/icon-warning.png") no-repeat 0 0;
+  background: url("../i/icon-warning-small.png") no-repeat 0 0;
   padding-left: 55px;
 }
