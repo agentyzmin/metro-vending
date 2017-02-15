@@ -2,6 +2,7 @@
 /*  Variables
     ======================================================== */
 
+// Colors
 $yellow:                #f4dd80;
 $metro-green:           #24ac66;
 $darkblue:              #151527;
@@ -10,12 +11,12 @@ $lightblue-pale:        #76748c;
 $green:                 #24ac66;
 $lightgreen:            #55c58f;
 
-
+// Primary things
 $background:            #2b283d;
 $text:                  #ceced9; // #fff;
 $link:                  $yellow;
 
-
+// Buttons
 $btn-bg:                $lightblue;
 $btn-text:              #b9b8c9;
 $btn--big-pic-text:     #fff;
@@ -24,11 +25,19 @@ $btn-active:            #4a4761;
 $btn-shadow:            $darkblue;
 $btn-inner-shadow:      #6c6c93;
 
+// Tables
+$table-text:            #fff;
+$th:                    $lightblue;
+$table-border:          #514f68;
+
+// Tableau
 $tableau-inner-shadow:  #020118;
 $tableau-shadow:        #424261;
 
+// Modals
 $modal-overlay:         #110f19;
 $progress-bar-bg:       #211e2f;
 $progress-bar-value:    #514f68;
   
+// Instructions
 $instructions-title:    $yellow;

@@ -1,0 +1,38 @@
+
+/*  Tables
+    ======================================================== */
+
+.table { 
+  width: 100%;
+  margin-bottom: 100px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: $table-text;
+}
+
+.cell {
+  border-bottom: 2px solid $table-border; 
+  font-size: 60px;
+  padding: 20px 0 30px;
+  vertical-align: top;
+  
+  &--header {
+    padding: 0 0 10px;
+    font-size: 20px;
+    color: $th;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: left;
+    font-weight: 500;
+  }
+}
+
+.cell__details {
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.cell--right {
+  text-align: right;
+}

@@ -21,7 +21,7 @@ p {
 h1, h2, h3,
 h4, h5, h6 {
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.125;
   font-weight: 500;
   color: #fff;
 }
@@ -29,6 +29,10 @@ h4, h5, h6 {
 h1 {
   font-size: 60px;
   margin-bottom: 30px;
+  
+  &--huge {
+    font-size: 80px;
+  }
 }
 
 h2 {
@@ -63,10 +67,16 @@ h3 {
     font-size: 60px;
     color: $instructions-title;
     font-weight: 500;
+    line-height: 1.125;
   }
 
   &--warning {
     padding-left: 110px;
     background: url('../i/icon-warning.png') no-repeat 0 0;
+    padding-top: 8px;
+  }
+
+  &--narrow {
+    max-width: 640px;
   }
 }

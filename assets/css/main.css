@@ -204,8 +204,16 @@ th {
 
 /*  Helper classes, mixins etc.
     ======================================================== */
+.clearfix {
+  clear: both;
+}
+
 /*  Base styles
     ======================================================== */
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
   background-color: #2b283d;
   -webkit-user-select: none;
@@ -222,6 +230,7 @@ body {
 .container {
   width: 880px;
   margin: 0 auto;
+  position: relative;
 }
 
 /*  Typography
@@ -245,7 +254,7 @@ p {
 h1, h2, h3,
 h4, h5, h6 {
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.125;
   font-weight: 500;
   color: #fff;
 }
@@ -253,6 +262,10 @@ h4, h5, h6 {
 h1 {
   font-size: 60px;
   margin-bottom: 30px;
+}
+
+h1--huge {
+  font-size: 80px;
 }
 
 h2 {
@@ -288,11 +301,17 @@ h3 {
   font-size: 60px;
   color: #f4dd80;
   font-weight: 500;
+  line-height: 1.125;
 }
 
 .instructions--warning {
   padding-left: 110px;
   background: url("../i/icon-warning.png") no-repeat 0 0;
+  padding-top: 8px;
+}
+
+.instructions--narrow {
+  max-width: 640px;
 }
 
 /*  Buttons
@@ -416,6 +435,43 @@ h2 + .buttons-list {
   margin-top: 30px;
 }
 
+/*  Tables
+    ======================================================== */
+.table {
+  width: 100%;
+  margin-bottom: 100px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+}
+
+.cell {
+  border-bottom: 2px solid #514f68;
+  font-size: 60px;
+  padding: 20px 0 30px;
+  vertical-align: top;
+}
+
+.cell--header {
+  padding: 0 0 10px;
+  font-size: 20px;
+  color: #68657d;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+  font-weight: 500;
+}
+
+.cell__details {
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.cell--right {
+  text-align: right;
+}
+
 /*  Header
     ======================================================== */
 .header__container {
@@ -534,7 +590,6 @@ h2 + .buttons-list {
 .ticket-info {
   margin-top: 30px;
   margin-bottom: 100px;
-  overflow: hidden;
 }
 
 .ticket-info__text {
@@ -554,6 +609,18 @@ h2 + .buttons-list {
 .ticket-info__img {
   position: relative;
   right: -3px;
+}
+
+.insert-bank-card {
+  position: absolute;
+  top: 828px;
+  right: -80px;
+}
+
+.enter-pin {
+  position: absolute;
+  top: 773px;
+  right: -80px;
 }
 
 .notice {

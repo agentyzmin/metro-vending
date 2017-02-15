@@ -2,6 +2,10 @@
 /*  Base styles
     ======================================================== */
 
+html {
+  -webkit-font-smoothing: antialiased; // Just for my pleasure when coding
+}
+
 body {
   background-color: $background;
   user-select: none;
@@ -15,4 +19,5 @@ body {
 .container {
   width: 880px;
   margin: 0 auto;
+  position: relative;
 }
