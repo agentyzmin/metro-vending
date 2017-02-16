@@ -400,7 +400,7 @@ h3 {
   display: block;
   width: 320px;
   height: 85px;
-  padding: 180px 50px 35px;
+  padding: 177px 50px 38px;
   border-radius: 8px;
   font-size: 40px;
   white-space: normal;
@@ -415,17 +415,17 @@ h3 {
 
 .btn--big-pic--card-recharge {
   background-image: url("../i/big-button-icons/card-recharge.png");
-  background-position: 50% 48px;
+  background-position: 50% 42px;
 }
 
 .btn--big-pic--metropass {
   background-image: url("../i/big-button-icons/metropass.png");
-  background-position: 50% 43px;
+  background-position: 50% 42px;
 }
 
 .btn--big-pic--card-purchase {
   background-image: url("../i/big-button-icons/card-purchase.png");
-  background-position: 50% 27px;
+  background-position: 50% 40px;
 }
 
 .btn--big-pic--payment-cash {
