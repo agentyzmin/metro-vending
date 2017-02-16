@@ -1,0 +1,25 @@
+
+/*  Result screens
+    ======================================================== */
+
+.result-screen {
+  margin-top: 80px;
+  padding-left: 115px;
+  padding-right: 75px;
+  
+  &__icon {
+    margin-bottom: 40px;
+  }
+  
+  &__title {
+    font-size: 80px;
+    margin-bottom: 25px;
+  }
+
+  &__description {
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 75px;
+  }
+}

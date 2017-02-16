@@ -29,10 +29,6 @@ h4, h5, h6 {
 h1 {
   font-size: 60px;
   margin-bottom: 30px;
-  
-  &--huge {
-    font-size: 80px;
-  }
 }
 
 h2 {
@@ -59,7 +55,7 @@ h3 {
 
 .instructions {
   font-size: 40px;
-  color: #fff;
+  color: $instructions-text;
   font-weight: 300;
 
   &__title {
@@ -78,5 +74,20 @@ h3 {
 
   &--narrow {
     max-width: 640px;
+  }
+}
+
+.notice {
+  margin: 25px 0;
+  font-size: 28px;
+  color: #fff;
+  min-height: 40px; // icon height
+  padding-top: 3px; // for the perfect alignment with icon
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  
+  &--warning {
+    background: url('../i/icon-warning-small.png') no-repeat 0 0;
+    padding-left: 55px;
   }
 }

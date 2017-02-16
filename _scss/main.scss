@@ -11,20 +11,6 @@
 @import 'header';
 @import 'footer';
 @import 'tableau';
+@import 'result-screens';
 
 @import 'tickets';
-
-.notice {
-  margin: 25px 0;
-  font-size: 28px;
-  color: #fff;
-  min-height: 40px; // icon height
-  padding-top: 3px; // for the perfect alignment with icon
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  
-  &--warning {
-    background: url('../i/icon-warning-small.png') no-repeat 0 0;
-    padding-left: 55px;
-  }
-}

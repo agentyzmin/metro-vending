@@ -264,10 +264,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-h1--huge {
-  font-size: 80px;
-}
-
 h2 {
   font-size: 40px;
   margin-bottom: 20px;
@@ -312,6 +308,21 @@ h3 {
 
 .instructions--narrow {
   max-width: 640px;
+}
+
+.notice {
+  margin: 25px 0;
+  font-size: 28px;
+  color: #fff;
+  min-height: 40px;
+  padding-top: 3px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.notice--warning {
+  background: url("../i/icon-warning-small.png") no-repeat 0 0;
+  padding-left: 55px;
 }
 
 /*  Buttons
@@ -557,8 +568,12 @@ h2 + .buttons-list {
   background: url("../i/icon-arrow-right.png") no-repeat right 65%;
 }
 
-.icon-waiting-for-cash {
+.insert-cash-img {
   margin-right: -20px;
+}
+
+.ticket-out-img {
+  margin-left: 20px;
 }
 
 /*  Tableau
@@ -583,6 +598,30 @@ h2 + .buttons-list {
 .tableau__currency {
   font-size: 0.75em;
   color: #68657d;
+}
+
+/*  Result screens
+    ======================================================== */
+.result-screen {
+  margin-top: 80px;
+  padding-left: 115px;
+  padding-right: 75px;
+}
+
+.result-screen__icon {
+  margin-bottom: 40px;
+}
+
+.result-screen__title {
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+
+.result-screen__description {
+  color: #fff;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 75px;
 }
 
 /*  01-Tickets
@@ -623,17 +662,11 @@ h2 + .buttons-list {
   right: -80px;
 }
 
-.notice {
-  margin: 25px 0;
-  font-size: 28px;
-  color: #fff;
-  min-height: 40px;
-  padding-top: 3px;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
-.notice--warning {
-  background: url("../i/icon-warning-small.png") no-repeat 0 0;
-  padding-left: 55px;
+.how-to-apply-tickets {
+  margin-left: -5px;
+  padding-top: 30px;
+  padding-left: 200px;
+  background: url("../i/tmp-oval.png") no-repeat 0 0;
+  min-height: 160px;
+  line-height: 1.25;
 }

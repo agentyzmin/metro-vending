@@ -59,6 +59,10 @@
         list-style-type: none;
       }
 
+      li.separated {
+        margin-bottom: 1em;
+      }
+
       .disabled {
         opacity: 0.3;
       }
@@ -81,20 +85,20 @@
         <h2>00. Головний екран</h2>
         <ul>
           <li><a href="./00-start/">Головна (доступно все)</a></li>
-          <li><a href="./00-start-no-cards/">Головна (без продажу карток метро)</a></li>
-          <li class="disabled">Види оплати</li>
-          <li class="disabled">Вибір мови</li>
+          <li class="separated"><a href="./00-start-no-cards/">Головна (без продажу карток метро)</a></li>
+          <li class="separated disabled">Види оплати</li>
+          <li class="separated disabled">Вибір мови</li>
         </ul>
         
         <h2>01. Разові квитки</h2>
         <ul>
-          <li><a href="./01-tickets/">Головна</a></li>
+          <li class="separated"><a href="./01-tickets/">Головна</a></li>
           <li><a href="./01-tickets-waiting-for-cash/">Готівка: очікування купюри</a></li>
           <li><a href="./01-tickets-cash-in-progress/">Готівка: зарахування грошей</a></li>
           <li><a href="./01-tickets-waiting-for-cash-add-more/">Готівка: внесіть ще</a></li>
           <li><a href="./01-tickets-banknote-not-recognized/">Готівка: купюру не розпізнано</a></li>
           <li><a href="./01-tickets-smaller-banknote-needed/">Готівка: вставте меншу купюру</a></li>
-          <li class="disabled">Готівка: візміть квиток</li>
+          <li class="separated"><a href="./01-tickets-cash-success/">Готівка: візьміть квиток</a></li>
           <li><a href="./01-tickets-insert-card/">Картка: очікування картки</a></li>
           <li><a href="./01-tickets-card-reading/">Картка: зчитування картки</a></li>
           <li><a href="./01-tickets-card-pin/">Картка: пін-код</a></li>
@@ -103,7 +107,8 @@
           <li><a href="./01-tickets-card-wrong-pin/">Картка: невірний пін-код</a></li>
           <li class="disabled">Картка: помилка оплати (з кнопками)</li>
           <li class="disabled">Картка: недостатньо коштів</li>
-          <li class="disabled">Картка: помилка оплати (без кнопок)</li>
+          <li class="separated disabled">Картка: помилка оплати (без кнопок)</li>
+          <li class="disabled">Помилка: візміть чек та зверніться у сервісний центр</li>
         </ul>
 
         <h2 class="disabled">02-1. Картка метро</h2>
