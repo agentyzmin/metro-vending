@@ -1,0 +1,36 @@
+{% if page.result-screen %}
+<div class="result-screen{% if page.result-screen.narrow %} result-screen--narrow{% endif %}">
+
+  {% if page.result-screen.icon %}
+  <div class="result-screen__icon">
+    <img src="../assets/i/{{ page.result-screen.icon.src }}" width="{{ page.result-screen.icon.width }}" height="{{ page.result-screen.icon.height }}">
+  </div>
+  {% endif %}
+
+  <h1 class="result-screen__title">
+    {{ page.result-screen.title }}
+  </h1>
+
+  {% if page.result-screen.description %}
+  <p class="result-screen__description">
+    {{ page.result-screen.description }}
+  </p>
+  {% endif %}
+
+  {% if page.result-screen.buttons %}
+  <div class="result-screen__buttons">
+    {% for button in page.result-screen.buttons %}
+    <a class="btn btn--compact btn--result-screen" href="#">{{ button[1] }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if page.result-screen.additional-notes %}
+  <div class="result-screen__additional-notes text">
+    <div{% if page.result-screen.additional-notes.class %} class="{{ page.result-screen.additional-notes.class }}"{% endif %}>
+      {{ page.result-screen.additional-notes.text }}
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% endif %}

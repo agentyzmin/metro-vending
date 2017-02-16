@@ -1,8 +1,8 @@
 ---
 layout: default
-permalink: /01-tickets-cash-success/
+permalink: /01-tickets-card-success/
 result-screen:
-  title: Візьміть квиток
+  title: Візьміть квиток та заберіть картку
   description: Квиток діє лише на цій станції та лише 15 хвилин після придбання.
   icon:
     src: status-ok-ticket.png
@@ -10,13 +10,18 @@ result-screen:
     height: 280
   additional-notes:
     text: Прикладіть квиток до передньої панелі турнікета кодом униз та проходьте.
-    class: how-to-apply-tickets
+    class: how-to-apply-tickets how-to-apply-tickets--card
+  narrow: true
 ---
 
 <div class="main">
   <div class="container">
 
     {% include result-screen.html %}
+
+    <div class="bank-card-out">
+      <img src="../assets/i/bank-card-out.png" width="249" height="231">
+    </div>
 
   </div> <!-- /container -->
 </div> <!-- /main -->

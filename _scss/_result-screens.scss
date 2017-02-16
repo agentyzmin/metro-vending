@@ -3,7 +3,7 @@
     ======================================================== */
 
 .result-screen {
-  margin-top: 80px;
+  padding-top: 80px;
   padding-left: 115px;
   padding-right: 75px;
   
@@ -22,4 +22,18 @@
     line-height: 1.2;
     margin-bottom: 75px;
   }
+
+  &--narrow {
+    .result-screen__title {
+      max-width: 600px;
+    }
+
+    .result-screen__description {
+      max-width: 500px;
+    }
+  }
+}
+
+.result-screen__buttons {
+  margin-left: -30px;
 }

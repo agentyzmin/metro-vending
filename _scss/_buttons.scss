@@ -31,6 +31,15 @@
   padding: 15px 24px;
 }
 
+.btn--compact {
+  white-space: normal;
+  color: #fff;
+  line-height: 1.2;
+  height: 68px;
+  padding: 16px 20px;
+  vertical-align: middle;
+}
+
 .btn--back {
   vertical-align: top;
 }
@@ -41,6 +50,11 @@
   background-repeat: no-repeat;
   background-position: 20px 21px;
   padding-left: 58px;
+}
+
+.btn--result-screen {
+  width: 265px; // 305px - 20px - 20px
+  margin-left: 30px;
 }
 
 .btn--big-pic {
