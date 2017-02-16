@@ -91,3 +91,18 @@ h3 {
     padding-left: 55px;
   }
 }
+
+.address-with-pin,
+.metro-station {
+  padding-left: 55px;
+  min-height: 40px;
+}
+
+.address-with-pin {
+  background: url('../i/icon-pin.png') no-repeat 5px 0;
+}
+
+.metro-station--m1 {
+  background: url('../i/m1.png') no-repeat 0 0;
+}
+
