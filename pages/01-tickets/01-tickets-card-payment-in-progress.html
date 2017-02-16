@@ -1,6 +1,9 @@
 ---
 layout: default
 permalink: /01-tickets-card-payment-in-progress/
+instructions:
+  title: Зачекайте, оплата в процесі...
+  description: Внесено 4 <span class="currency">₴</span>.
 ---
 
 <div class="main">
@@ -25,14 +28,7 @@ permalink: /01-tickets-card-payment-in-progress/
       </tbody>
     </table>
 
-    <div class="instructions">
-      <h3 class="instructions__title">
-        Зачекайте, оплата в процесі...
-      </h3>
-      <p class="instructions__description">
-        Внесено 4 <span class="currency">₴</span>.
-      </p>
-    </div>
+    {% include instructions.html %}
 
   </div>
 </div> <!-- /main -->

@@ -1,0 +1,12 @@
+{% if page.instructions %}
+<div class="instructions{% if page.instructions.warning %} instructions--warning{% endif %}{% if page.instructions.narrow %} instructions--narrow{% endif %}">
+  <h3 class="instructions__title">
+    {{ page.instructions.title }}
+  </h3>
+  {% if page.instructions.description %}
+  <p class="instructions__description">
+    {{ page.instructions.description }}
+  </p>
+  {% endif %}
+</div>
+{% endif %}

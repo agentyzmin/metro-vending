@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /01-tickets-card-wrong-pin/
+instructions:
+  title: Невірний пін-код.<br>Введіть ще раз
+  narrow: true
+  warning: true
 ---
 
 <div class="main">
@@ -25,13 +29,7 @@ permalink: /01-tickets-card-wrong-pin/
       </tbody>
     </table>
 
-    <div class="instructions instructions--narrow instructions--warning">
-      <h3 class="instructions__title">
-        Невірний пін-код.
-        <br>
-        Введіть ще раз
-      </h3>
-    </div>
+    {% include instructions.html %}
 
     <div class="enter-pin">
       <img src="../assets/i/enter-pin.png" width="215" height="200">

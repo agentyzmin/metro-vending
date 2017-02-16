@@ -2,6 +2,10 @@
 layout: default
 permalink: /01-tickets-insert-card/
 back-button: true
+instructions:
+  title: Вставте банківську картку для оплати
+  description: Якщо картка безконтакна, прикладіть її до зчитувача вгорі.
+  narrow: true
 ---
 
 <div class="main">
@@ -26,14 +30,7 @@ back-button: true
       </tbody>
     </table>
 
-    <div class="instructions instructions--narrow">
-      <h3 class="instructions__title">
-        Вставте банківську картку для оплати
-      </h3>
-      <p class="instructions__description">
-        Якщо картка безконтакна, прикладіть її до зчитувача вгорі.
-      </p>
-    </div>
+    {% include instructions.html %}
 
     <div class="insert-bank-card">
       <img src="../assets/i/insert-bank-card.png" width="199" height="260">

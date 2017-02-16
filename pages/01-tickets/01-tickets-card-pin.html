@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /01-tickets-card-pin/
+instructions:
+  title: Введіть пін-код
+  description: Скористайтесь цифровою клавіатурою праворуч від екрану.
+  narrow: true
 ---
 
 <div class="main">
@@ -25,14 +29,7 @@ permalink: /01-tickets-card-pin/
       </tbody>
     </table>
 
-    <div class="instructions instructions--narrow">
-      <h3 class="instructions__title">
-        Введіть пін-код
-      </h3>
-      <p class="instructions__description">
-        Скористайтесь цифровою клавіатурою праворуч від екрану.
-      </p>
-    </div>
+    {% include instructions.html %}
 
     <div class="enter-pin">
       <img src="../assets/i/enter-pin.png" width="215" height="200">

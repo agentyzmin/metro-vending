@@ -1,6 +1,9 @@
 ---
 layout: default
 permalink: /01-tickets-waiting-for-cash-add-more/
+instructions:
+  title: Внесіть купюри 1 <span class="currency">₴</span> або 2 <span class="currency">₴</span> 
+  description: Автомат не видає решти.
 ---
 
 <div class="main">
@@ -15,14 +18,7 @@ permalink: /01-tickets-waiting-for-cash-add-more/
       </div>
     </div> <!-- /tableau -->
 
-    <div class="instructions">
-      <h3 class="instructions__title">
-        Внесіть купюри 1 <span class="currency">₴</span> або 2 <span class="currency">₴</span> 
-      </h3>
-      <p class="instructions__description">
-        Автомат не видає решти. 
-      </p>
-    </div>
+    {% include instructions.html %}
 
   </div>
 </div> <!-- /main -->
