@@ -300,6 +300,15 @@ h3 {
   line-height: 1.125;
 }
 
+.instructions__note {
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.instructions__cta {
+  margin-top: 20px;
+}
+
 .instructions--warning {
   padding-left: 110px;
   background: url("../i/icon-warning.png") no-repeat 0 0;
@@ -349,7 +358,7 @@ h3 {
   font-weight: 500;
   line-height: 1.1;
   background-color: #68657d;
-  color: #b9b8c9;
+  color: #fff;
   border: none;
   padding: 21px 22px;
   text-decoration: none;
@@ -366,13 +375,16 @@ h3 {
   box-shadow: 0 5px 0 #151527, inset 0 2px 0 #4a4761;
 }
 
+.btn--pale {
+  color: #b9b8c9;
+}
+
 .btn--small {
   padding: 15px 24px;
 }
 
 .btn--compact {
   white-space: normal;
-  color: #fff;
   line-height: 1.2;
   height: 68px;
   padding: 16px 20px;
@@ -404,7 +416,6 @@ h3 {
   border-radius: 8px;
   font-size: 40px;
   white-space: normal;
-  color: #fff;
   background-repeat: no-repeat;
 }
 
@@ -454,6 +465,10 @@ h3 {
 .btn--pseudo-big-pic:active {
   box-shadow: none;
   background-color: transparent;
+}
+
+.btn--buy {
+  min-width: 180px;
 }
 
 .buttons-list {
@@ -511,6 +526,106 @@ h2 + .buttons-list {
   text-align: right;
 }
 
+/*  Action images
+    Images with arrow, e.g. insert cash, get ticket etc.
+    ======================================================== */
+.action-image {
+  position: relative;
+}
+
+.action-image__img, .action-image__arrow {
+  position: absolute;
+  display: block;
+}
+
+.action-image__img {
+  top: 0;
+  left: 0;
+}
+
+.action-image__arrow--bottom {
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.action-image--insert-cash {
+  width: 177px;
+  height: 156px;
+  margin-right: -20px;
+}
+
+.action-image--ticket-out {
+  width: 100px;
+  height: 144px;
+  margin-left: 20px;
+}
+
+.action-image--insert-bank-card {
+  position: absolute;
+  width: 200px;
+  height: 260px;
+  top: 828px;
+  right: -80px;
+}
+
+.action-image--insert-bank-card .action-image__arrow {
+  top: 20px;
+  right: 0;
+}
+
+.action-image--bank-card-out {
+  position: absolute;
+  width: 250px;
+  height: 231px;
+  top: 816px;
+  right: -80px;
+}
+
+.action-image--bank-card-out .action-image__arrow {
+  top: 39px;
+  right: 0;
+}
+
+.action-image--enter-pin {
+  position: absolute;
+  width: 215px;
+  height: 200px;
+  top: 773px;
+  right: -80px;
+}
+
+.action-image--enter-pin .action-image__arrow {
+  top: 77px;
+  right: 0;
+}
+
+.action-image--metrocard-in {
+  position: absolute;
+  width: 250px;
+  height: 243px;
+  top: 438px;
+  right: -80px;
+}
+
+.action-image--metrocard-in .action-image__arrow {
+  top: 20px;
+  right: 0;
+}
+
+.action-image--metrocard-in {
+  position: absolute;
+  width: 250px;
+  height: 231px;
+  top: 438px;
+  right: -80px;
+}
+
+.action-image--metrocard-in .action-image__arrow {
+  top: 20px;
+  right: 0;
+}
+
 /*  Header
     ======================================================== */
 .header__container {
@@ -561,10 +676,6 @@ h2 + .buttons-list {
   right: 0;
 }
 
-.footer__img {
-  display: block;
-}
-
 .footer__hint {
   width: 440px;
 }
@@ -593,15 +704,7 @@ h2 + .buttons-list {
   display: inline-block;
   padding-right: 35px;
   padding-left: 70px;
-  background: url("../i/icon-arrow-right.png") no-repeat right 65%;
-}
-
-.insert-cash-img {
-  margin-right: -20px;
-}
-
-.ticket-out-img {
-  margin-left: 20px;
+  background: url("../i/icon-learn-more.png") no-repeat right 65%;
 }
 
 /*  Tableau
@@ -700,24 +803,6 @@ h2 + .buttons-list {
   right: -3px;
 }
 
-.insert-bank-card {
-  position: absolute;
-  top: 828px;
-  right: -80px;
-}
-
-.enter-pin {
-  position: absolute;
-  top: 773px;
-  right: -80px;
-}
-
-.bank-card-out {
-  position: absolute;
-  top: 816px;
-  right: -80px;
-}
-
 .how-to-apply-tickets {
   margin-left: -5px;
   padding-top: 30px;
@@ -732,4 +817,13 @@ h2 + .buttons-list {
   padding-left: 5px;
   padding-top: 190px;
   width: 430px;
+}
+
+/*  02-Metrocard
+    ======================================================== */
+.instructions--metrocard {
+  position: absolute;
+  top: 730px;
+  right: 20px;
+  text-align: right;
 }

@@ -1,0 +1,103 @@
+
+/*  Action images
+    Images with arrow, e.g. insert cash, get ticket etc.
+    ======================================================== */
+
+.action-image {
+  position: relative;
+  
+  &__img,
+  &__arrow {
+    position: absolute;
+    display: block;
+  }
+
+  &__img {
+    top: 0;
+    left: 0;
+  }
+}
+
+.action-image__arrow--bottom {
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+}
+
+
+.action-image--insert-cash {
+  width: 177px;
+  height: 156px;
+  margin-right: -20px;
+}
+
+.action-image--ticket-out { 
+  width: 100px;
+  height: 144px;
+  margin-left: 20px;
+}
+
+.action-image--insert-bank-card {
+  position: absolute;
+  width: 200px;
+  height: 260px;
+  top: 828px;
+  right: -80px;
+  
+  .action-image__arrow {
+    top: 20px;
+    right: 0;
+  }
+}
+
+.action-image--bank-card-out {
+  position: absolute;
+  width: 250px;
+  height: 231px;
+  top: 816px;
+  right: -80px;
+  
+  .action-image__arrow {
+    top: 39px;
+    right: 0;
+  }
+}
+
+.action-image--enter-pin {
+  position: absolute;
+  width: 215px;
+  height: 200px;
+  top: 773px;
+  right: -80px;
+  
+  .action-image__arrow {
+    top: 77px;
+    right: 0;
+  }
+}
+
+.action-image--metrocard-in {
+  position: absolute;
+  width: 250px;
+  height: 243px;
+  top: 438px;
+  right: -80px;
+  
+  .action-image__arrow {
+    top: 20px;
+    right: 0;
+  }
+}
+
+.action-image--metrocard-in {
+  position: absolute;
+  width: 250px;
+  height: 231px;
+  top: 438px;
+  right: -80px;
+  
+  .action-image__arrow {
+    top: 20px;
+    right: 0;
+  }
+}

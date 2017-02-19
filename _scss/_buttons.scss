@@ -27,13 +27,16 @@
   }
 }
 
+.btn--pale {
+  color: $btn-pale-text;
+}
+
 .btn--small {
   padding: 15px 24px;
 }
 
 .btn--compact {
   white-space: normal;
-  color: #fff;
   line-height: 1.2;
   height: 68px;
   padding: 16px 20px;
@@ -65,7 +68,6 @@
   border-radius: 8px;
   font-size: 40px;
   white-space: normal;
-  color: $btn--big-pic-text;
   background-repeat: no-repeat;
   
     &--ticket {
@@ -115,6 +117,10 @@
     box-shadow: none;
     background-color: transparent;
   }
+}
+
+.btn--buy {
+  min-width: 180px;
 }
 
 .buttons-list {

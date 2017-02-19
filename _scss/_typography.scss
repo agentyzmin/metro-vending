@@ -66,6 +66,15 @@ h3 {
     line-height: 1.125;
   }
 
+  &__note {
+    margin-top: 40px;
+    font-weight: 500;
+  }
+
+  &__cta {
+    margin-top: 20px;
+  }
+
   &--warning {
     padding-left: 110px;
     background: url('../i/icon-warning.png') no-repeat 0 0;

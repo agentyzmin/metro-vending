@@ -26,10 +26,6 @@
     right: 0;
   }
 
-  &__img {
-    display: block;
-  }
-
   &__hint {
     width: 440px;
   }
@@ -59,13 +55,5 @@
   display: inline-block;
   padding-right: 35px;
   padding-left: 70px;
-  background: url('../i/icon-arrow-right.png') no-repeat right 65%;
-}
-
-.insert-cash-img {
-  margin-right: -20px;
-}
-
-.ticket-out-img {
-  margin-left: 20px;
+  background: url('../i/icon-learn-more.png') no-repeat right 65%;
 }
