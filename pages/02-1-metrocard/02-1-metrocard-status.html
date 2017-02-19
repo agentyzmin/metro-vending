@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /01-tickets/
+permalink: /02-1-metrocard-status/
 back-button: true
 instructions:
   title: Оберіть спосіб оплати
@@ -9,20 +9,14 @@ instructions:
 <div class="main">
   <div class="container">
     
-    <div class="ticket-info">
-      <div class="ticket-info__text">
-        <h1>Разовий квиток — 4<span class="sum-fraction">,00 ₴</span></h1>
+    <h2>На картці</h2>
 
-        <p class="text">Замість жетонів тепер паперовий квиток з QR-кодом.</p>
-        <p class="text">Квиток діє тільки на цій станції та лише 15 хвилин після придбання.</p>
-      </div>
-
-      <div class="ticket-info__figure">
-        <img class="ticket-info__img" src="../assets/i/ticket.png" width="275" height="287">
-      </div>
-
-      <div class="clearfix"></div>
-    </div> <!-- /ticket-info -->
+    <div class="tableau">
+      <!-- <div class="tableau__left">
+        <div class="tableau__sum">0 <span class="currency tableau__currency">₴</span></div>
+        <div class="tableau__sum-description">внесено</div>
+      </div> -->
+    </div> <!-- /tableau -->
 
     {% include instructions.html %}
 
@@ -41,5 +35,5 @@ instructions:
       </li>
     </ul>
 
-  </div> <!-- /container -->
+  </div>
 </div> <!-- /main -->

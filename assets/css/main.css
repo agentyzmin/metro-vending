@@ -485,8 +485,8 @@ h3 {
   list-style-type: none;
 }
 
-h2 + .buttons-list {
-  margin-top: 30px;
+.instructions + .buttons-list {
+  margin-top: 40px;
 }
 
 /*  Tables
@@ -714,6 +714,7 @@ h2 + .buttons-list {
   border-radius: 8px;
   margin: 20px 0 80px;
   padding: 33px 40px;
+  min-height: 215px;
   line-height: 1.2;
   color: #fff;
   box-shadow: 0 2px 0 #424261, inset 0 4px 0 #020118;
@@ -781,7 +782,7 @@ h2 + .buttons-list {
     ======================================================== */
 .ticket-info {
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .ticket-info__text {
