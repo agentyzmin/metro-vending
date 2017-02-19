@@ -3,6 +3,7 @@
     ======================================================== */
 
 .tableau {
+  position: relative;
   overflow: hidden;
   background-color: $darkblue;
   border-radius: 8px;
@@ -46,4 +47,12 @@
   &--empty {
     color: $lightblue;
   }
+}
+
+.tableau__progress {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 92px;
+  left: 508px;
 }

@@ -775,6 +775,7 @@ h3 + .table {
 /*  Tableau
     ======================================================== */
 .tableau {
+  position: relative;
   overflow: hidden;
   background-color: #151527;
   border-radius: 8px;
@@ -814,6 +815,14 @@ h3 + .table {
 
 .tableau__journeys--empty {
   color: #68657d;
+}
+
+.tableau__progress {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 92px;
+  left: 508px;
 }
 
 /*  Result screens

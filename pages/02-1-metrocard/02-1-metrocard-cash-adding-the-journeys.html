@@ -1,0 +1,145 @@
+---
+layout: default
+permalink: /02-1-metrocard-cash-adding-the-journeys/
+instructions:
+  title: Зачекайте...
+  description: Не забирайте картку.
+---
+
+<div class="main">
+  <div class="container">
+    
+    <h2>На картці</h2>
+
+    <div class="tableau">
+      <div class="tableau__left">
+        <div class="tableau__value">5<span class="sum-fraction">,80</span> <span class="currency">₴</span></div>
+        <div class="tableau__value-description">залишок</div>
+      </div>
+
+      <div class="tableau__right tableau__journeys tableau__journeys--empty">
+        <div class="tableau__value">0</div>
+        <div class="tableau__value-description">поїздок</div>
+      </div>
+
+      <div class="tableau__progress">
+        <img src="../assets/i/tableau-progress.png" width="78" height="78">
+      </div>
+    </div> <!-- /tableau -->
+
+    {% include instructions.html %}
+
+
+
+  </div>
+</div> <!-- /main -->
+
+<div class="footer">
+  <div class="metrocard-plans">
+    <div class="container">
+      <h2 class="metrocard-plans__title">Більша сума поповнення —<br>менший тариф за поїздку</h2>
+
+      <div class="metrocard-plans__your-plan">
+        <table class="metrocard-plans__your-plan-table table table--compact">
+          <tbody>
+            <tr class="table__last-row">
+              <td class="metrocard-plans__cell-sum cell">Ваш тариф</td>
+              <td class="metrocard-plans__cell-journeys cell">&nbsp;</td>
+              <td class="metrocard-plans__cell-fare cell cell--right"><span class="text-price">4,00</span> <span class="currency currency--pale">₴</span></td>
+              <td class="metrocard-plans__cell-economy cell cell--right">&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <table class="metrocard-plans__table table table--compact">
+        <thead>
+          <tr>
+            <th class="metrocard-plans__cell-sum head-cell">Внесіть ще</th>
+            <th class="metrocard-plans__cell-journeys head-cell">Отримайте</th>
+            <th class="metrocard-plans__cell-fare head-cell head-cell--right">За тарифом</th>
+            <th class="metrocard-plans__cell-economy head-cell head-cell--right">Економія</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cell">
+              34 <span class="currency currency--pale">₴</span>
+            </td>
+            <td class="cell">
+              10 поїздок
+            </td>
+            <td class="cell cell--right">
+              <span class="text-price">3,90</span> <span class="currency currency--pale">₴</span>
+            </td>
+            <td class="cell cell--right">
+              <span class="text-economy">3%</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="cell">
+              71 <span class="currency currency--pale">₴</span>
+            </td>
+            <td class="cell">
+              20 поїздок
+            </td>
+            <td class="cell cell--right">
+              <span class="text-price">3,80</span> <span class="currency currency--pale">₴</span>
+            </td>
+            <td class="cell cell--right">
+              <span class="text-economy">5%</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="cell">
+              106 <span class="currency currency--pale">₴</span>
+            </td>
+            <td class="cell">
+              30 поїздок
+            </td>
+            <td class="cell cell--right">
+              <span class="text-price">3,70</span> <span class="currency currency--pale">₴</span>
+            </td>
+            <td class="cell cell--right">
+              <span class="text-economy">8%</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="cell">
+              139 <span class="currency currency--pale">₴</span>
+            </td>
+            <td class="cell">
+              40 поїздок
+            </td>
+            <td class="cell cell--right">
+              <span class="text-price">3,60</span> <span class="currency currency--pale">₴</span>
+            </td>
+            <td class="cell cell--right">
+              <span class="text-economy">10%</span>
+            </td>
+          </tr>
+
+          <tr class="table__last-row">
+            <td class="cell">
+              170 <span class="currency currency--pale">₴</span>
+            </td>
+            <td class="cell">
+              50 поїздок
+            </td>
+            <td class="cell cell--right">
+              <span class="text-price">3,50</span> <span class="currency currency--pale">₴</span>
+            </td>
+            <td class="cell cell--right">
+              <span class="text-economy">13%</span>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    </div>
+  </div> <!-- /metrocard-plans -->
+</div> <!-- /footer -->
