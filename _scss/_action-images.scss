@@ -16,6 +16,10 @@
     top: 0;
     left: 0;
   }
+
+  &--in-progress {
+    opacity: 0.4;
+  }
 }
 
 .action-image__arrow--bottom {

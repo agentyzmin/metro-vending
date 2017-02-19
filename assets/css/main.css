@@ -493,6 +493,20 @@ h3 {
   min-width: 180px;
 }
 
+.btn--huge {
+  display: block;
+  margin: 40px 0;
+  padding: 52px 30px 58px;
+  font-size: 80px;
+  background-color: #24ac66;
+  box-shadow: 0 8px 0 #199851;
+}
+
+.btn--huge:active {
+  background-color: #0f8c4c;
+  box-shadow: 0 5px 0 #0a783a;
+}
+
 .buttons-list {
   margin: 0 -20px;
   padding: 0;
@@ -588,6 +602,10 @@ h3 + .table {
 .action-image__img {
   top: 0;
   left: 0;
+}
+
+.action-image--in-progress {
+  opacity: 0.4;
 }
 
 .action-image__arrow--bottom {
@@ -787,6 +805,7 @@ h3 + .table {
 .tableau .currency {
   font-size: 0.75em;
   color: #68657d;
+  margin-left: -0.1em;
 }
 
 .tableau .sum-fraction {

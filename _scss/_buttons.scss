@@ -123,6 +123,20 @@
   min-width: 180px;
 }
 
+.btn--huge {
+  display: block;
+  margin: 40px 0;
+  padding: 52px 30px 58px;
+  font-size: 80px;
+  background-color: $green;
+  box-shadow: 0 8px 0 $btn-huge-shadow;
+  
+  &:active {
+    background-color: $btn-huge-active;
+    box-shadow: 0 5px 0 $btn-huge-active-shadow;
+  }
+}
+
 .buttons-list {
   margin: 0 -20px;
   padding: 0;
