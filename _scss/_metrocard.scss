@@ -8,3 +8,12 @@
   right: 20px;
   text-align: right;
 }
+
+.metrocard-plans {
+  background-color: $darkblue;
+  padding: 35px 0 40px;
+  
+  &__table {
+    margin-bottom: 0;
+  }
+}

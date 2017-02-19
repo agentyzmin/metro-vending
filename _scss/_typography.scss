@@ -46,11 +46,20 @@ h3 {
   font-size: 28px;
   line-height: 1.32;
   margin-bottom: 20px;
+  
+  &--prominent {
+    color: #fff;
+    font-size: 40px;
+  }
 }
 
 .sum-fraction,
 .currency {
   font-size: 0.8em;
+}
+
+.currency--pale {
+  color: $lightblue;
 }
 
 .instructions {
@@ -99,6 +108,11 @@ h3 {
     background: url('../i/icon-warning-small.png') no-repeat 0 0;
     padding-left: 55px;
   }
+
+  &--prominent {
+    font-size: 40px;
+    font-weight: 300;
+  }
 }
 
 .address-with-pin,
@@ -115,3 +129,10 @@ h3 {
   background: url('../i/m1.png') no-repeat 0 0;
 }
 
+.text-price {
+  color: $yellow;
+}
+
+.text-economy {
+  color: $green;
+}

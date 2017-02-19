@@ -10,21 +10,30 @@
   color: $table-text;
 }
 
-.cell {
+h2 + .table,
+h3 + .table {
+  margin-top: 40px;
+}
+
+.cell,
+.head-cell {
   border-bottom: 2px solid $table-border; 
+  vertical-align: top;
+}
+
+.cell {
   font-size: 60px;
   padding: 20px 0 25px;
-  vertical-align: top;
-  
-  &--header {
-    padding: 0 0 10px;
-    font-size: 20px;
-    color: $th;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    text-align: left;
-    font-weight: 500;
-  }
+}
+
+.head-cell {
+  padding: 0 0 10px;
+  font-size: 20px;
+  color: $th;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+  font-weight: 500;
 }
 
 .cell__details {
@@ -33,6 +42,24 @@
   margin-top: 10px;
 }
 
-.cell--right {
+.cell--right,
+.head-cell--right {
   text-align: right;
+}
+
+.table--compact {
+  .head-cell,
+  .cell {
+    border-bottom: 1px solid $table-border;
+  }
+
+  .cell {
+    padding: 10px 0 11px;
+    font-size: 40px;
+    font-weight: 300;
+  }
+}
+
+.table__last-row .cell {
+  border-bottom: none;
 }
