@@ -784,9 +784,13 @@ h3 + .table {
   margin-bottom: 7px;
 }
 
-.tableau__currency {
+.tableau .currency {
   font-size: 0.75em;
   color: #68657d;
+}
+
+.tableau .sum-fraction {
+  font-size: 0.75em;
 }
 
 .tableau__journeys--empty {
@@ -891,10 +895,40 @@ h3 + .table {
 }
 
 .metrocard-plans {
+  padding: 35px 0 260px;
+}
+
+.metrocard-plans--highlighted {
+  padding-bottom: 40px;
   background-color: #151527;
-  padding: 35px 0 40px;
 }
 
 .metrocard-plans__table {
   margin-bottom: 0;
+}
+
+.metrocard-plans__cell-sum {
+  width: 260px;
+}
+
+.metrocard-plans__cell-journeys {
+  width: 280px;
+}
+
+.metrocard-plans__cell-fare {
+  width: 190px;
+}
+
+.metrocard-plans__your-plan {
+  border-radius: 4px;
+  background-color: #39354f;
+}
+
+.metrocard-plans__your-plan .metrocard-plans__cell-sum {
+  width: 230px;
+  padding-left: 30px;
+}
+
+.metrocard-plans__your-plan-table {
+  margin: 50px 0 45px;
 }

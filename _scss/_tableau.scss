@@ -31,9 +31,13 @@
     margin-bottom: 7px;
   }
 
-  &__currency {
+  .currency {
     font-size: 0.75em;
     color: $lightblue;
+  }
+
+  .sum-fraction {
+    font-size: 0.75em;
   }
 }
 

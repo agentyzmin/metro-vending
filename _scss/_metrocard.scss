@@ -10,10 +10,40 @@
 }
 
 .metrocard-plans {
-  background-color: $darkblue;
-  padding: 35px 0 40px;
+  padding: 35px 0 260px;
+  
+  &--highlighted {
+    padding-bottom: 40px;
+    background-color: $darkblue;
+  }
   
   &__table {
     margin-bottom: 0;
   }
+
+  &__cell-sum {
+    width: 260px;
+  }
+
+  &__cell-journeys {
+    width: 280px;
+  }
+
+  &__cell-fare {
+    width: 190px;
+  }
+}
+
+.metrocard-plans__your-plan {
+  border-radius: 4px;
+  background-color: #39354f;
+  
+  .metrocard-plans__cell-sum {
+    width: 230px;
+    padding-left: 30px;
+  }
+}
+
+.metrocard-plans__your-plan-table {
+  margin: 50px 0 45px;
 }
