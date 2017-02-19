@@ -295,39 +295,6 @@ h3 {
   color: #68657d;
 }
 
-.instructions {
-  font-size: 40px;
-  color: #fff;
-  font-weight: 300;
-}
-
-.instructions__title {
-  margin-bottom: 20px;
-  font-size: 60px;
-  color: #f4dd80;
-  font-weight: 500;
-  line-height: 1.125;
-}
-
-.instructions__note {
-  margin-top: 40px;
-  font-weight: 500;
-}
-
-.instructions__cta {
-  margin-top: 20px;
-}
-
-.instructions--warning {
-  padding-left: 110px;
-  background: url("../i/icon-warning.png") no-repeat 0 0;
-  padding-top: 8px;
-}
-
-.instructions--narrow {
-  max-width: 640px;
-}
-
 .notice {
   margin: 25px 0;
   font-size: 28px;
@@ -587,110 +554,6 @@ h3 + .table {
   border-bottom: none;
 }
 
-/*  Action images
-    Images with arrow, e.g. insert cash, get ticket etc.
-    ======================================================== */
-.action-image {
-  position: relative;
-}
-
-.action-image__img, .action-image__arrow {
-  position: absolute;
-  display: block;
-}
-
-.action-image__img {
-  top: 0;
-  left: 0;
-}
-
-.action-image--in-progress {
-  opacity: 0.4;
-}
-
-.action-image__arrow--bottom {
-  bottom: 0;
-  left: 50%;
-  margin-left: -20px;
-}
-
-.action-image--insert-cash {
-  width: 177px;
-  height: 156px;
-  margin-right: -20px;
-}
-
-.action-image--ticket-out {
-  width: 100px;
-  height: 144px;
-  margin-left: 20px;
-}
-
-.action-image--insert-bank-card {
-  position: absolute;
-  width: 200px;
-  height: 260px;
-  top: 828px;
-  right: -80px;
-}
-
-.action-image--insert-bank-card .action-image__arrow {
-  top: 20px;
-  right: 0;
-}
-
-.action-image--bank-card-out {
-  position: absolute;
-  width: 250px;
-  height: 231px;
-  top: 816px;
-  right: -80px;
-}
-
-.action-image--bank-card-out .action-image__arrow {
-  top: 39px;
-  right: 0;
-}
-
-.action-image--enter-pin {
-  position: absolute;
-  width: 215px;
-  height: 200px;
-  top: 773px;
-  right: -80px;
-}
-
-.action-image--enter-pin .action-image__arrow {
-  top: 77px;
-  right: 0;
-}
-
-.action-image--metrocard-in {
-  position: absolute;
-  width: 250px;
-  height: 243px;
-  top: 438px;
-  right: -80px;
-}
-
-.action-image--metrocard-in .action-image__arrow {
-  top: 20px;
-  right: 0;
-}
-
-.action-image--metrocard-in {
-  position: absolute;
-  width: 250px;
-  height: 231px;
-  top: 438px;
-  right: -80px;
-}
-
-.action-image--metrocard-in .action-image__arrow {
-  top: 20px;
-  right: 0;
-}
-
 /*  Header
     ======================================================== */
 .header__container {
@@ -817,12 +680,159 @@ h3 + .table {
   color: #68657d;
 }
 
+.tableau__journeys--added {
+  color: #24ac66;
+}
+
 .tableau__progress {
   position: absolute;
   width: 78px;
   height: 78px;
   top: 92px;
   left: 508px;
+}
+
+/*  Instructions (they say people what to do)
+    ======================================================== */
+.instructions {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.instructions__title {
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: #f4dd80;
+  font-weight: 500;
+  line-height: 1.125;
+}
+
+.instructions__note {
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.instructions__cta {
+  margin-top: 20px;
+}
+
+.instructions--warning {
+  padding-left: 110px;
+  background: url("../i/icon-warning.png") no-repeat 0 0;
+  padding-top: 8px;
+}
+
+.instructions--narrow {
+  max-width: 640px;
+}
+
+.instructions--success .instructions__title {
+  color: #24ac66;
+}
+
+/*  Action images
+    Images with arrow, e.g. insert cash, get ticket etc.
+    ======================================================== */
+.action-image {
+  position: relative;
+}
+
+.action-image__img, .action-image__arrow {
+  position: absolute;
+  display: block;
+}
+
+.action-image__img {
+  top: 0;
+  left: 0;
+}
+
+.action-image--in-progress {
+  opacity: 0.4;
+}
+
+.action-image__arrow--bottom {
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.action-image--insert-cash {
+  width: 177px;
+  height: 156px;
+  margin-right: -20px;
+}
+
+.action-image--ticket-out {
+  width: 100px;
+  height: 144px;
+  margin-left: 20px;
+}
+
+.action-image--insert-bank-card {
+  position: absolute;
+  width: 200px;
+  height: 260px;
+  top: 828px;
+  right: -80px;
+}
+
+.action-image--insert-bank-card .action-image__arrow {
+  top: 20px;
+  right: 0;
+}
+
+.action-image--bank-card-out {
+  position: absolute;
+  width: 250px;
+  height: 231px;
+  top: 816px;
+  right: -80px;
+}
+
+.action-image--bank-card-out .action-image__arrow {
+  top: 39px;
+  right: 0;
+}
+
+.action-image--enter-pin {
+  position: absolute;
+  width: 215px;
+  height: 200px;
+  top: 773px;
+  right: -80px;
+}
+
+.action-image--enter-pin .action-image__arrow {
+  top: 77px;
+  right: 0;
+}
+
+.action-image--metrocard-in {
+  position: absolute;
+  width: 250px;
+  height: 243px;
+  top: 438px;
+  right: -80px;
+}
+
+.action-image--metrocard-in .action-image__arrow {
+  top: 20px;
+  right: 0;
+}
+
+.action-image--metrocard-out {
+  position: absolute;
+  width: 250px;
+  height: 231px;
+  top: 438px;
+  right: -80px;
+}
+
+.action-image--metrocard-out .action-image__arrow {
+  top: 20px;
+  right: 0;
 }
 
 /*  Result screens

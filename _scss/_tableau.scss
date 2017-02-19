@@ -47,6 +47,10 @@
   &--empty {
     color: $lightblue;
   }
+
+  &--added {
+    color: $green;
+  }
 }
 
 .tableau__progress {

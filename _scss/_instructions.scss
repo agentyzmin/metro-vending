@@ -1,0 +1,42 @@
+
+/*  Instructions (they say people what to do)
+    ======================================================== */
+
+.instructions {
+  font-size: 40px;
+  color: $instructions-text;
+  font-weight: 300;
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: $instructions-title;
+    font-weight: 500;
+    line-height: 1.125;
+  }
+
+  &__note {
+    margin-top: 40px;
+    font-weight: 500;
+  }
+
+  &__cta {
+    margin-top: 20px;
+  }
+
+  &--warning {
+    padding-left: 110px;
+    background: url('../i/icon-warning.png') no-repeat 0 0;
+    padding-top: 8px;
+  }
+
+  &--narrow {
+    max-width: 640px;
+  }
+
+  &--success {
+    .instructions__title {
+      color: $green;
+    }
+  }
+}
