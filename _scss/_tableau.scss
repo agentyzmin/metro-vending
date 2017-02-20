@@ -44,6 +44,9 @@
 }
 
 .tableau__journeys {
+  float: right;
+  text-align: right;
+
   &--empty {
     color: $lightblue;
   }

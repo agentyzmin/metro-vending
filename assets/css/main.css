@@ -676,6 +676,11 @@ h3 + .table {
   font-size: 0.75em;
 }
 
+.tableau__journeys {
+  float: right;
+  text-align: right;
+}
+
 .tableau__journeys--empty {
   color: #68657d;
 }
