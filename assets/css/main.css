@@ -676,6 +676,10 @@ h3 + .table {
   font-size: 0.75em;
 }
 
+.tableau__money {
+  float: left;
+}
+
 .tableau__journeys {
   float: right;
   text-align: right;
