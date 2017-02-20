@@ -32,6 +32,10 @@
     margin-bottom: 7px;
   }
 
+  &__value-description {
+    font-weight: 500;
+  } 
+
   .currency {
     font-size: 0.75em;
     color: $lightblue;

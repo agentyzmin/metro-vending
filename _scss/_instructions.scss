@@ -15,6 +15,11 @@
     line-height: 1.125;
   }
 
+  &--neutral .instructions__title {
+    color: #fff;
+    margin-bottom: 40px; // for better contrast between equal colors
+  }
+
   &__note {
     margin-top: 40px;
     font-weight: 500;

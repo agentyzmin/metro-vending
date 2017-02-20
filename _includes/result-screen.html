@@ -24,11 +24,17 @@
   </div>
   {% endif %}
 
-  {% if page.result-screen.buttons %}
+  {% if page.result-screen.button-group %}
   <div class="result-screen__buttons">
-    {% for button in page.result-screen.buttons %}
+    {% for button in page.result-screen.button-group %}
     <a class="btn btn--compact btn--result-screen" href="#">{{ button[1] }}</a>
     {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if page.result-screen.button %}
+  <div class="result-screen__buttons">
+    <a class="btn btn--result-screen" href="#">{{ page.result-screen.button }}</a>
   </div>
   {% endif %}
 

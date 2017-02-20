@@ -378,6 +378,7 @@ h3 {
   height: 68px;
   padding: 16px 20px;
   vertical-align: middle;
+  width: 265px;
 }
 
 .btn--back {
@@ -393,7 +394,6 @@ h3 {
 }
 
 .btn--result-screen {
-  width: 265px;
   margin-left: 30px;
 }
 
@@ -666,6 +666,10 @@ h3 + .table {
   margin-bottom: 7px;
 }
 
+.tableau__value-description {
+  font-weight: 500;
+}
+
 .tableau .currency {
   font-size: 0.75em;
   color: #68657d;
@@ -715,6 +719,11 @@ h3 + .table {
   color: #f4dd80;
   font-weight: 500;
   line-height: 1.125;
+}
+
+.instructions--neutral .instructions__title {
+  color: #fff;
+  margin-bottom: 40px;
 }
 
 .instructions__note {
@@ -858,7 +867,7 @@ h3 + .table {
 
 .result-screen__title {
   font-size: 80px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .result-screen__description {
@@ -869,14 +878,15 @@ h3 + .table {
 }
 
 .result-screen--narrow .result-screen__title {
-  max-width: 600px;
+  max-width: 540px;
 }
 
 .result-screen--narrow .result-screen__description {
-  max-width: 500px;
+  max-width: 520px;
 }
 
 .result-screen__buttons {
+  margin-top: 60px;
   margin-left: -30px;
 }
 
@@ -942,7 +952,7 @@ h3 + .table {
 }
 
 .metrocard-plans {
-  padding: 35px 0 260px;
+  padding: 40px 0 260px;
 }
 
 .metrocard-plans--highlighted {

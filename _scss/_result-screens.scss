@@ -13,7 +13,7 @@
   
   &__title {
     font-size: 80px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
   }
 
   &__description {
@@ -25,16 +25,17 @@
 
   &--narrow {
     .result-screen__title {
-      max-width: 600px;
+      max-width: 540px;
     }
 
     .result-screen__description {
-      max-width: 500px;
+      max-width: 520px;
     }
   }
 }
 
 .result-screen__buttons {
+  margin-top: 60px;
   margin-left: -30px;
 }
 
