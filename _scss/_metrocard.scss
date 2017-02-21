@@ -10,10 +10,13 @@
 }
 
 .metrocard-plans {
-  padding: 40px 0 260px;
+  &--fixed {
+    position: absolute;
+    top: 820px;
+  }
   
-  &--highlighted {
-    padding-bottom: 40px;
+  &--in-footer {
+    padding: 40px 0;
     background-color: $darkblue;
   }
   

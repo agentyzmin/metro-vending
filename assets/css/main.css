@@ -951,12 +951,13 @@ h3 + .table {
   text-align: right;
 }
 
-.metrocard-plans {
-  padding: 40px 0 260px;
+.metrocard-plans--fixed {
+  position: absolute;
+  top: 820px;
 }
 
-.metrocard-plans--highlighted {
-  padding-bottom: 40px;
+.metrocard-plans--in-footer {
+  padding: 40px 0;
   background-color: #151527;
 }
 
