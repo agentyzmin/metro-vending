@@ -1,0 +1,46 @@
+---
+layout: default
+permalink: /02-2-monthly-pass/cash-in-progress.html
+instructions:
+  title: Зачекайте...
+  description: Внесено 50 <span class="currency">₴</span>
+---
+
+<div class="main">
+  <div class="container">
+    
+    <table class="table table--monthly-pass">
+      <thead>
+        <tr>
+          <th class="head-cell">Ви купуєте</th>
+          <th class="head-cell head-cell--right">До оплати</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="cell cell--strong">
+            Проїзний на лютий,<br>
+            62 поїздки
+          </td>
+          <td class="cell cell--right cell--strong">
+            150 <span class="currency">₴</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="cell">Залишок на картці</td>
+          <td class="cell cell--right cell--strong">
+            3 <span class="currency">₴</span>
+          </td>
+        </tr>
+        <tr class="table__last-row">
+          <td class="cell cell--right" colspan="2">
+            Треба внести: <span class="table__total">147 <span class="currency">₴</span></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    {% include instructions.html %}
+
+  </div>
+</div> <!-- /main -->

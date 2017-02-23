@@ -1,0 +1,63 @@
+---
+layout: default
+permalink: /02-1-metrocard/journeys-manual-enter.html
+back-button: true
+instructions:
+  title: Введіть кількість поїздок
+  description: Максимально 50.
+---
+
+<div class="main">
+  <div class="container">
+    
+    <h2>На картці</h2>
+
+    <div class="tableau">
+      <div class="tableau__money">
+        <div class="tableau__value">3<span class="sum-fraction">,80</span> <span class="currency">₴</span></div>
+        <div class="tableau__value-description">залишок</div>
+      </div>
+
+      <div class="tableau__journeys tableau__journeys--empty">
+        <div class="tableau__value">0</div>
+        <div class="tableau__value-description">поїздок</div>
+      </div>
+    </div> <!-- /tableau -->
+
+    {% include instructions.html %}
+
+    <div class="journeys-manual-enter">
+      <div class="journeys-manual-enter__input-wrapper">
+        <input type="text" value="50" autofocus>
+      </div>
+
+      <div class="journeys-manual-enter__plan">
+        <table class="table table--compact">
+          <thead>
+            <tr>
+              <th class="head-cell">Тариф</th>
+              <th class="head-cell head-cell--right">До оплати</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__last-row">
+              <td class="cell">
+                <span class="text-price">
+                  3,50 <span class="currency">₴</span>
+                </span>
+              </td>
+              <td class="cell cell--right cell--strong">175 ₴</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> <!-- /journeys-manual-enter__plan -->
+
+      <div class="journeys-manual-enter__keyboard">
+        ...
+      </div>
+    </div> <!-- /journeys-manual-enter -->
+
+    <a class="btn btn--huge" href="#">Купити 50 поїздок</a>
+
+  </div>
+</div> <!-- /main -->

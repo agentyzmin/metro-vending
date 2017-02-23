@@ -78,6 +78,7 @@ h3 + .table {
   margin-left: 0.3em;
 }
 
-.cell--strong {
+.cell--strong,
+.table--compact .cell--strong {
   font-weight: 500;
 }
