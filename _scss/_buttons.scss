@@ -137,6 +137,46 @@
   }
 }
 
+.btn-group {
+  margin-top: 40px;
+  
+  &__item {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.btn--mixed {
+  position: relative;
+  min-height: 100px;
+  font-size: 40px;
+  padding: 0;
+  
+  &__quantity {
+    position: absolute;
+    top: 26px;
+    left: 40px;
+  }
+
+  &__fare {
+    position: absolute;
+    width: 250px;
+    top: 26px;
+    right: 200px;
+    text-align: right;
+    color: $yellow;
+    font-weight: 300;
+  }
+
+  &__sum {
+    position: absolute;
+    width: 150px;
+    top: 26px;
+    right: 40px;
+    text-align: right;
+  }
+}
+
 .buttons-list {
   margin: 0 -20px;
   padding: 0;

@@ -474,6 +474,46 @@ h3 {
   box-shadow: 0 5px 0 #0a783a;
 }
 
+.btn-group {
+  margin-top: 40px;
+}
+
+.btn-group__item {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.btn--mixed {
+  position: relative;
+  min-height: 100px;
+  font-size: 40px;
+  padding: 0;
+}
+
+.btn--mixed__quantity {
+  position: absolute;
+  top: 26px;
+  left: 40px;
+}
+
+.btn--mixed__fare {
+  position: absolute;
+  width: 250px;
+  top: 26px;
+  right: 200px;
+  text-align: right;
+  color: #f4dd80;
+  font-weight: 300;
+}
+
+.btn--mixed__sum {
+  position: absolute;
+  width: 150px;
+  top: 26px;
+  right: 40px;
+  text-align: right;
+}
+
 .buttons-list {
   margin: 0 -20px;
   padding: 0;
@@ -565,7 +605,7 @@ h3 + .table {
 .table__total {
   font-weight: 500;
   font-size: 60px;
-  margin-left: 0.33em;
+  margin-left: 0.3em;
 }
 
 .cell--strong {
