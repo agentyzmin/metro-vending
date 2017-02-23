@@ -554,6 +554,24 @@ h3 + .table {
   border-bottom: none;
 }
 
+.table--monthly-pass {
+  font-weight: 300;
+}
+
+.table--monthly-pass .cell {
+  font-size: 40px;
+}
+
+.table__total {
+  font-weight: 500;
+  font-size: 60px;
+  margin-left: 0.33em;
+}
+
+.cell--strong {
+  font-weight: 500;
+}
+
 /*  Header
     ======================================================== */
 .header__container {

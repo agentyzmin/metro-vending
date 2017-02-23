@@ -63,3 +63,21 @@ h3 + .table {
 .table__last-row .cell {
   border-bottom: none;
 }
+
+.table--monthly-pass {
+  font-weight: 300;
+  
+  .cell {
+    font-size: 40px;
+  }
+}
+
+.table__total {
+  font-weight: 500;
+  font-size: 60px;
+  margin-left: 0.33em;
+}
+
+.cell--strong {
+  font-weight: 500;
+}
