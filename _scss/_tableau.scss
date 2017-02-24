@@ -15,7 +15,12 @@
   
   box-shadow: 0 2px 0 $tableau-shadow,
               inset 0 4px 0 $tableau-inner-shadow;
-              
+  
+  &--has-table {
+    padding-top: 16px;
+    padding-bottom: 0;
+  }
+
   &__left {
     float: left;
   }
@@ -34,6 +39,7 @@
 
   &__value-description {
     font-weight: 500;
+    line-height: 1;
   } 
 
   .currency {
@@ -70,4 +76,28 @@
   height: 78px;
   top: 92px;
   left: 508px;
+}
+
+.tableau__table {
+  margin-bottom: 0;
+  font-weight: 300;
+  
+  .cell {
+    font-size: 40px;
+    vertical-align: top;
+  }
+}
+
+.tableau__main-row {
+  .cell {
+    padding-bottom: 40px;
+  }
+}
+
+.tableau__cell-name {
+  width: 320px;
+}
+
+.tableau__cell-days {
+  width: 200px;
 }

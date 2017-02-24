@@ -286,6 +286,10 @@ h3 {
   font-size: 40px;
 }
 
+.text--strong {
+  font-weight: 500;
+}
+
 .sum-fraction,
 .currency {
   font-size: 0.8em;
@@ -714,6 +718,11 @@ h3 + .table {
   box-shadow: 0 2px 0 #424261, inset 0 4px 0 #020118;
 }
 
+.tableau--has-table {
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
 .tableau__left {
   float: left;
 }
@@ -732,6 +741,7 @@ h3 + .table {
 
 .tableau__value-description {
   font-weight: 500;
+  line-height: 1;
 }
 
 .tableau .currency {
@@ -767,6 +777,28 @@ h3 + .table {
   height: 78px;
   top: 92px;
   left: 508px;
+}
+
+.tableau__table {
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.tableau__table .cell {
+  font-size: 40px;
+  vertical-align: top;
+}
+
+.tableau__main-row .cell {
+  padding-bottom: 40px;
+}
+
+.tableau__cell-name {
+  width: 320px;
+}
+
+.tableau__cell-days {
+  width: 200px;
 }
 
 /*  Instructions (they say people what to do)

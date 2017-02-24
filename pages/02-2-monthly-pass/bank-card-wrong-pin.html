@@ -1,0 +1,52 @@
+---
+layout: default
+permalink: /02-2-monthly-pass/bank-card-wrong-pin.html
+instructions:
+  title: Невірний пін-код.<br>Введіть ще раз
+  narrow: true
+  warning: true
+---
+
+<div class="main">
+  <div class="container">
+
+    <table class="table table--monthly-pass">
+      <thead>
+        <tr>
+          <th class="head-cell">Ви купуєте</th>
+          <th class="head-cell head-cell--right">До оплати</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="cell cell--strong">
+            Проїзний на лютий,<br>
+            62 поїздки
+          </td>
+          <td class="cell cell--right cell--strong">
+            150 <span class="currency">₴</span>
+          </td>
+        </tr>
+        <tr class="table__row-compact">
+          <td class="cell">Залишок на картці</td>
+          <td class="cell cell--right cell--strong">
+            3 <span class="currency">₴</span>
+          </td>
+        </tr>
+        <tr class="table__last-row">
+          <td class="cell cell--right" colspan="2">
+            До оплати: <span class="table__total">147 <span class="currency">₴</span></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    {% include instructions.html %}
+
+    <div class="action-image action-image--enter-pin">
+      <img class="action-image__img" src="../assets/i/enter-pin.png" width="135" height="200">
+      <img class="action-image__arrow" src="../assets/i/icon-arrow-right.png" width="19" height="40">
+    </div>
+
+  </div>
+</div> <!-- /main -->
