@@ -60,12 +60,17 @@ h3 + .table {
   }
 }
 
+.table__row-compact .cell {
+  padding: 10px 0 12px;
+}
+
 .table__last-row .cell {
   border-bottom: none;
 }
 
 .table--monthly-pass {
   font-weight: 300;
+  margin-bottom: 70px;
   
   .cell {
     font-size: 40px;
