@@ -791,6 +791,7 @@ h3 + .table {
 
 .tableau__main-row .cell {
   padding-bottom: 40px;
+  height: 207px;
 }
 
 .tableau__cell-name {
