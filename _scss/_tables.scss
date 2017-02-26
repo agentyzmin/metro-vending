@@ -87,3 +87,7 @@ h3 + .table {
 .table--compact .cell--strong {
   font-weight: 500;
 }
+
+.cell--warning {
+  color: $red;
+}

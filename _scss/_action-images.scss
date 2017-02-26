@@ -105,3 +105,11 @@
     right: 0;
   }
 }
+
+.flexible-action-image {
+  position: relative;
+  
+  .action-image {
+    top: 0;
+  }
+}

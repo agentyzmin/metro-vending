@@ -290,6 +290,10 @@ h3 {
   font-weight: 500;
 }
 
+.text + .text {
+  margin-top: -10px;
+}
+
 .sum-fraction,
 .currency {
   font-size: 0.8em;
@@ -480,6 +484,7 @@ h3 {
 
 .btn-group {
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .btn-group__item {
@@ -533,6 +538,10 @@ h3 {
 }
 
 .instructions + .buttons-list {
+  margin-top: 40px;
+}
+
+.btn-wrapper {
   margin-top: 40px;
 }
 
@@ -620,6 +629,10 @@ h3 + .table {
 .cell--strong,
 .table--compact .cell--strong {
   font-weight: 500;
+}
+
+.cell--warning {
+  color: #fb3535;
 }
 
 /*  Header
@@ -948,6 +961,14 @@ h3 + .table {
 .action-image--metrocard-out .action-image__arrow {
   top: 20px;
   right: 0;
+}
+
+.flexible-action-image {
+  position: relative;
+}
+
+.flexible-action-image .action-image {
+  top: 0;
 }
 
 /*  Result screens

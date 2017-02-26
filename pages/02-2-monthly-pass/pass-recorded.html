@@ -1,0 +1,60 @@
+---
+layout: default
+permalink: /02-2-monthly-pass/pass-recorded.html
+instructions:
+  title: Проїзний записано, заберіть картку метро
+  success: true
+  narrow: true
+---
+
+<div class="main">
+  <div class="container">
+    
+    <h2>На картці</h2>
+
+    <div class="tableau tableau--has-table">
+      <table class="tableau__table table">
+        <tbody>
+          <tr class="tableau__main-row">
+            <td class="tableau__cell-name cell">
+              Проїзний<br>на січень
+            </td>
+            <td class="tableau__cell-days cell cell--right">
+              <div class="tableau__value">2</div>
+              <div class="tableau__value-description">дні</div>
+            </td>
+            <td class="tableau__cell-journeys cell cell--right">
+              <div class="tableau__value">1</div>
+              <div class="tableau__value-description">поїздка</div>
+            </td>
+          </tr>
+          <tr>
+            <td class="cell">
+              Проїзний<br>на лютий
+            </td>
+            <td class="cell cell--right cell--strong">28<br>днів</td>
+            <td class="cell cell--right cell--strong">32<br>поїздки</td>
+          </tr>
+          <tr class="table__last-row">
+            <td class="cell">
+              Залишок
+            </td>
+            <td class="cell cell--right cell--strong" colspan="2">
+              3,80 <span class="currency">₴</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div> <!-- /tableau -->
+
+    <div class="flexible-action-image">
+      {% include instructions.html %}
+
+      <div class="action-image action-image--metrocard-out">
+        <img class="action-image__img" src="../assets/i/metrocard-out.png" width="170" height="231">
+        <img class="action-image__arrow" src="../assets/i/icon-arrow-right.png" width="19" height="40">
+      </div>
+    </div>
+
+  </div>
+</div> <!-- /main -->
