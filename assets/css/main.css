@@ -290,7 +290,7 @@ h3 {
   font-weight: 500;
 }
 
-.text + .text {
+.text--prominent + .text--prominent {
   margin-top: -10px;
 }
 
@@ -304,7 +304,7 @@ h3 {
 }
 
 .notice {
-  margin: 25px 0;
+  margin: 30px 0;
   font-size: 28px;
   color: #fff;
   min-height: 40px;
@@ -321,6 +321,30 @@ h3 {
 .notice--prominent {
   font-size: 40px;
   font-weight: 300;
+}
+
+.item-info {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.item-info__text {
+  float: left;
+  width: 500px;
+  padding-right: 35px;
+  margin-right: 40px;
+}
+
+.item-info__figure {
+  float: left;
+  width: 305px;
+  margin-top: 45px;
+  text-align: right;
+}
+
+.item-info__img {
+  position: relative;
+  right: -3px;
 }
 
 .address-with-pin,
@@ -963,6 +987,19 @@ h3 + .table {
   right: 0;
 }
 
+.action-image--bought-metrocard-out {
+  position: absolute;
+  width: 240px;
+  height: 231px;
+  top: 1424px;
+  left: -10px;
+}
+
+.action-image--bought-metrocard-out .action-image__arrow {
+  top: 136px;
+  left: -70px;
+}
+
 .flexible-action-image {
   position: relative;
 }
@@ -1020,30 +1057,6 @@ h3 + .table {
 
 /*  01-Tickets
     ======================================================== */
-.ticket-info {
-  margin-top: 30px;
-  margin-bottom: 80px;
-}
-
-.ticket-info__text {
-  float: left;
-  width: 500px;
-  padding-right: 35px;
-  margin-right: 40px;
-}
-
-.ticket-info__figure {
-  float: left;
-  width: 305px;
-  margin-top: 45px;
-  text-align: right;
-}
-
-.ticket-info__img {
-  position: relative;
-  right: -3px;
-}
-
 .how-to-apply-tickets {
   margin-left: -5px;
   padding-top: 30px;

@@ -57,7 +57,7 @@ h3 {
   }
 }
 
-.text + .text {
+.text--prominent + .text--prominent {
   margin-top: -10px;
 }
 
@@ -71,7 +71,7 @@ h3 {
 }
 
 .notice {
-  margin: 25px 0;
+  margin: 30px 0;
   font-size: 28px;
   color: #fff;
   min-height: 40px; // icon height
@@ -87,6 +87,30 @@ h3 {
   &--prominent {
     font-size: 40px;
     font-weight: 300;
+  }
+}
+
+.item-info {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  
+  &__text {
+    float: left;
+    width: 500px; // 535 - 35
+    padding-right: 35px;
+    margin-right: 40px;
+  }
+
+  &__figure {
+    float: left;
+    width: 305px;
+    margin-top: 45px;
+    text-align: right;
+  }
+
+  &__img {
+    position: relative;
+    right: -3px;
   }
 }
 
