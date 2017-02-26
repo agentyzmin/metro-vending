@@ -1,0 +1,45 @@
+---
+layout: default
+permalink: /04-buy-metrocard/index.html
+back-button: true
+instructions:
+  title: Оберіть спосіб оплати
+---
+
+<div class="main">
+  <div class="container">
+    
+    <div class="item-info">
+      <div class="item-info__text">
+        <h1>Безконтактна картка метро — 12<span class="sum-fraction">,00</span> <span class="currency">₴</span></h1>
+
+        <p class="text">З карткою зручно заощаджувати на поїздках або записати будь-який проїзний.</p>
+        <p class="text">12 <span class="currency">₴</span> — заставна вартість, кошти можна отримати назад повернувши картку до каси.</p>
+      </div>
+
+      <div class="item-info__figure">
+        <img class="item-info__img" src="../assets/i/metrocards.png" width="240" height="164">
+      </div>
+
+      <div class="clearfix"></div>
+    </div> <!-- /item-info -->
+
+    {% include instructions.html %}
+
+    <ul class="buttons-list">
+      <li class="buttons-list__item">
+        <a class="btn btn--big-pic btn--big-pic--payment-cash" href="../01-tickets/waiting-for-cash.html">
+          Сплатити готівкою
+        </a>
+        <div class="notice notice--warning">Автомат не видає решти, вона буде записана на картку.</div>
+      </li>
+
+      <li class="buttons-list__item">
+        <a class="btn btn--big-pic btn--big-pic--payment-card" href="../01-tickets/insert-card.html">
+          Сплатити карткою
+        </a>
+      </li>
+    </ul>
+
+  </div> <!-- /container -->
+</div> <!-- /main -->
