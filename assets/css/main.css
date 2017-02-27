@@ -269,6 +269,10 @@ h2 {
   margin-bottom: 20px;
 }
 
+h2 + .text--prominent {
+  margin-top: -10px;
+}
+
 h3 {
   font-size: 28px;
   margin-bottom: 10px;
@@ -1191,6 +1195,7 @@ h3 + .table {
   top: 730px;
   right: 20px;
   text-align: right;
+  width: 400px;
 }
 
 .metrocard-plans--fixed {
