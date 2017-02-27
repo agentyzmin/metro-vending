@@ -1047,6 +1047,7 @@ h3 + .table {
   font-size: 40px;
   line-height: 1.2;
   margin-bottom: 75px;
+  font-weight: 300;
 }
 
 .result-screen--narrow .result-screen__title {
