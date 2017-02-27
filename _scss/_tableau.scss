@@ -35,6 +35,14 @@
     font-weight: 500;
     line-height: 1;
     margin-bottom: 7px;
+    
+    &--in-progress {
+      color: #5b5b68;
+      
+      .currency {
+        color: #2d2c41 !important;
+      }
+    }
   }
 
   &__value-description {

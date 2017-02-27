@@ -861,6 +861,14 @@ h3 + .table {
   margin-bottom: 7px;
 }
 
+.tableau__value--in-progress {
+  color: #5b5b68;
+}
+
+.tableau__value--in-progress .currency {
+  color: #2d2c41 !important;
+}
+
 .tableau__value-description {
   font-weight: 500;
   line-height: 1;
