@@ -36,7 +36,7 @@
   }
 }
 
-.payment-types-link {
+.learn-more-link {
   display: block;
   background-color: $darkblue;
   color: #fff;
@@ -46,14 +46,14 @@
   }
 }
 
-.payment-types-link__container {
+.learn-more-link__container {
   background: url('../i/icon-info.png') no-repeat 0 50%;
   padding: 36px 0 36px;
 }
 
-.payment-types-link__text {
+.learn-more-link__text {
   display: inline-block;
   padding-right: 35px;
   padding-left: 70px;
-  background: url('../i/icon-learn-more.png') no-repeat right 65%;
+  background: url('../i/icon-learn-more.png') no-repeat right 61%;
 }

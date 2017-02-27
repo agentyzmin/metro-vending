@@ -369,6 +369,14 @@ h3 {
   color: #24ac66;
 }
 
+.trademark {
+  font-size: 10px;
+}
+
+.trademark--mastercard-title {
+  top: -4em;
+}
+
 /*  Buttons
     ======================================================== */
 .btn {
@@ -795,26 +803,26 @@ h3 + .table {
   margin-bottom: 60px;
 }
 
-.payment-types-link {
+.learn-more-link {
   display: block;
   background-color: #151527;
   color: #fff;
 }
 
-.payment-types-link:active {
+.learn-more-link:active {
   background-color: #111120;
 }
 
-.payment-types-link__container {
+.learn-more-link__container {
   background: url("../i/icon-info.png") no-repeat 0 50%;
   padding: 36px 0 36px;
 }
 
-.payment-types-link__text {
+.learn-more-link__text {
   display: inline-block;
   padding-right: 35px;
   padding-left: 70px;
-  background: url("../i/icon-learn-more.png") no-repeat right 65%;
+  background: url("../i/icon-learn-more.png") no-repeat right 61%;
 }
 
 /*  Tableau
@@ -1068,6 +1076,19 @@ h3 + .table {
   right: 0;
 }
 
+.action-image--metropass-waiting {
+  position: absolute;
+  width: 415px;
+  height: 182px;
+  top: 17px;
+  right: -80px;
+}
+
+.action-image--metropass-waiting .action-image__arrow {
+  top: 33px;
+  right: 0;
+}
+
 .action-image--bought-metrocard-out {
   position: absolute;
   width: 240px;
@@ -1202,4 +1223,14 @@ h3 + .table {
 
 .metrocard-plans__your-plan-table {
   margin: 50px 0 45px;
+}
+
+/*  03-Metropass
+    ======================================================== */
+.instructions--metropass {
+  position: absolute;
+  width: 440px;
+  top: 240px;
+  right: 0;
+  text-align: right;
 }

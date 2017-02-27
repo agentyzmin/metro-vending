@@ -106,6 +106,19 @@
   }
 }
 
+.action-image--metropass-waiting {
+  position: absolute;
+  width: 415px;
+  height: 182px;
+  top: 17px;
+  right: -80px;
+  
+  .action-image__arrow {
+    top: 33px;
+    right: 0;
+  }
+}
+
 .action-image--bought-metrocard-out {
   position: absolute;
   width: 240px;
