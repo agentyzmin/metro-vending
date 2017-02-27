@@ -396,6 +396,16 @@ h3 {
   box-shadow: 0 5px 0 #151527, inset 0 2px 0 #4a4761;
 }
 
+.btn--primary {
+  background-color: #24ac66;
+  box-shadow: 0 6px 0 #199851;
+}
+
+.btn--primary:active {
+  background-color: #0f8c4c;
+  box-shadow: 0 5px 0 #0a783a;
+}
+
 .btn--pale {
   color: #b9b8c9;
 }
@@ -423,6 +433,13 @@ h3 {
   background-repeat: no-repeat;
   background-position: 20px 21px;
   padding-left: 58px;
+}
+
+.btn-row--result-screen {
+  margin-top: 60px;
+  margin-left: -30px;
+  padding-right: 75px;
+  padding-left: 115px;
 }
 
 .btn--result-screen {

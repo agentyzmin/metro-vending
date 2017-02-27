@@ -9,15 +9,17 @@ result-screen:
     src: status-warning.png
     width: 280
     height: 280
-  button-group:
-    btn1: Скористатись іншою карткою
-    btn2: Сплатити<br>готівкою
 ---
 
 <div class="main">
   <div class="container">
 
     {% include result-screen.html %}
+
+    <div class="btn-row btn-row--result-screen">
+      <a class="btn btn--compact btn--result-screen" href="#">Скористатись іншою карткою</a>
+      <a class="btn btn--compact btn--result-screen" href="#">Сплатити<br>готівкою</a>
+    </div>
 
   </div> <!-- /container -->
 </div> <!-- /main -->
