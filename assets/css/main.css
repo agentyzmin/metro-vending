@@ -960,6 +960,10 @@ h3 + .table {
   color: #24ac66;
 }
 
+.instructions--pseudo-result-screen {
+  padding-top: 430px;
+}
+
 /*  Action images
     Images with arrow, e.g. insert cash, get ticket etc.
     ======================================================== */
