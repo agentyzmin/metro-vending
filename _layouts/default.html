@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="../assets/css/main.css">
   </head>
 
-  <body>
+  <body{% if page.modal %} class="modal-body"{% endif %}>
     <div class="wrapper">
 
+      {% unless page.modal %}
       {% include header.html %}
+      {% endunless %}
 
       {{ content }}
     </div> <!-- /wrapper -->

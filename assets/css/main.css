@@ -410,6 +410,15 @@ h3 {
   color: #b9b8c9;
 }
 
+.btn--block {
+  display: block;
+}
+
+.btn--large {
+  font-size: 50px;
+  padding: 26px;
+}
+
 .btn--small {
   padding: 15px 24px;
 }
@@ -674,6 +683,57 @@ h3 + .table {
 
 .cell--warning {
   color: #fb3535;
+}
+
+/*  Modal
+    ======================================================== */
+.modal-body {
+  background-color: #110f19;
+}
+
+.modal__window {
+  position: absolute;
+  width: 420px;
+  top: 530px;
+  left: 50%;
+  margin-left: -325px;
+  padding: 40px 115px 40px;
+  background: #2b283d;
+  border-radius: 10px;
+}
+
+.modal__caption {
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.modal__progress-bar {
+  margin: 55px 0 10px;
+}
+
+.modal__notice {
+  color: #68657d;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.progress-bar {
+  position: relative;
+  width: 100%;
+  height: 8px;
+  background-color: #151527;
+}
+
+.progress-bar__value {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 4px;
+  background-color: #514f68;
 }
 
 /*  Header

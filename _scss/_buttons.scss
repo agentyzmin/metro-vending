@@ -41,6 +41,15 @@
   color: $btn-pale-text;
 }
 
+.btn--block {
+  display: block;
+}
+
+.btn--large {
+  font-size: 50px;
+  padding: 26px;
+}
+
 .btn--small {
   padding: 15px 24px;
 }

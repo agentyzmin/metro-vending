@@ -1,0 +1,56 @@
+
+/*  Modal
+    ======================================================== */
+
+.modal-body {
+  background-color: $modal-overlay;
+}
+
+.modal {
+  &__window {
+    position: absolute;
+    width: 420px; // 650 - 115 - 115
+    
+    top: 530px;
+    left: 50%;
+    margin-left: -325px; // 650/2
+
+    padding: 40px 115px 40px;
+    background: $background;
+    border-radius: 10px;
+  }
+  
+  &__caption {
+    font-size: 60px;
+    font-weight: 500;
+    color: $modal-text;
+    margin-bottom: 20px;
+  }
+
+  &__progress-bar {
+    margin: 55px 0 10px;
+  }
+
+  &__notice {
+    color: $lightblue;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+  }
+}
+
+.progress-bar {
+  position: relative;
+  width: 100%;
+  height: 8px;
+  background-color: $progress-bar-bg;
+  
+  &__value {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 4px;
+    background-color: $progress-bar-value;
+  }
+}
