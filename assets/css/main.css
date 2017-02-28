@@ -1214,6 +1214,27 @@ h3 + .table {
   left: -70px;
 }
 
+.action-image--metrocard-and-bank-card-out {
+  position: absolute;
+  width: 250px;
+  height: 548px;
+  top: 438px;
+  right: -80px;
+}
+
+.action-image--metrocard-and-bank-card-out .action-image__arrow {
+  top: 20px;
+  right: 0;
+}
+
+.action-image--metrocard-and-bank-card-out .action-image__arrow--second {
+  top: 287px;
+}
+
+.action-image--metrocard-and-bank-card-out .action-image__img--second {
+  top: 248px;
+}
+
 .flexible-action-image {
   position: relative;
 }

@@ -132,6 +132,27 @@
   }
 }
 
+.action-image--metrocard-and-bank-card-out {
+  position: absolute;
+  width: 250px;
+  height: 548px;
+  top: 438px;
+  right: -80px;
+  
+  .action-image__arrow {
+    top: 20px;
+    right: 0;
+    
+    &--second {
+      top: 287px;
+    }
+  }
+
+  .action-image__img--second {
+    top: 248px;
+  }
+}
+
 .flexible-action-image {
   position: relative;
   
