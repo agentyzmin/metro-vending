@@ -8,5 +8,10 @@
     {{ page.instructions.description }}
   </div>
   {% endif %}
+  {% if page.instructions.button %}
+  <div class="instructions__button">
+    <a class="btn" href="#">{{ page.instructions.button }}</a>
+  </div>
+  {% endif %}
 </div>
 {% endif %}

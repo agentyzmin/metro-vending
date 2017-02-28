@@ -391,7 +391,7 @@ h3 {
 }
 
 .bank-card-info__expiration {
-  padding-left: 0.5em;
+  padding-left: 0.67em;
 }
 
 /*  Buttons
@@ -995,6 +995,10 @@ h3 + .table {
 
 .instructions__cta {
   margin-top: 20px;
+}
+
+.instructions__button {
+  margin-top: 40px;
 }
 
 .instructions--warning {
