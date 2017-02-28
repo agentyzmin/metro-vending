@@ -279,6 +279,12 @@ h3 {
   margin-bottom: 10px;
 }
 
+h4 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 .text {
   font-weight: 300;
   font-size: 28px;
@@ -289,6 +295,16 @@ h3 {
 .text--prominent {
   color: #fff;
   font-size: 40px;
+}
+
+.text--small {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.text--tiny {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .text--strong {
@@ -446,6 +462,13 @@ h3 {
 
 .btn--small {
   padding: 15px 24px;
+}
+
+.btn--tiny {
+  white-space: normal;
+  padding: 9px 15px 8px;
+  min-width: 120px;
+  font-size: 20px;
 }
 
 .btn--compact {
@@ -688,6 +711,12 @@ h3 + .table {
   text-align: right;
 }
 
+.table--medium .cell {
+  padding: 18px 0 22px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
 .table--compact .head-cell,
 .table--compact .cell {
   border-bottom: 1px solid #514f68;
@@ -699,9 +728,14 @@ h3 + .table {
   font-weight: 300;
 }
 
-.table--medium .cell {
-  padding: 18px 0 22px;
-  font-size: 40px;
+.table--extra-compact .head-cell,
+.table--extra-compact .cell {
+  border-bottom: 1px solid #514f68;
+}
+
+.table--extra-compact .cell {
+  padding: 8px 0;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -709,7 +743,7 @@ h3 + .table {
   padding: 10px 0 14px;
 }
 
-.table__last-row .cell {
+.table__last-row > .cell {
   border-bottom: none;
 }
 
@@ -728,15 +762,11 @@ h3 + .table {
   margin-left: 0.3em;
 }
 
-.cell--strong,
-.table--compact .cell--strong,
-.table--medium .cell--strong {
+.table .cell--strong {
   font-weight: 500;
 }
 
-.cell--light,
-.table--compact .cell--light,
-.table--medium .cell--light {
+.table .cell--light {
   font-weight: 300;
 }
 
@@ -1404,4 +1434,75 @@ h3 + .table {
 .languages__second {
   float: left;
   width: 420px;
+}
+
+/*  Payment methods page
+    ======================================================== */
+.payment-methods {
+  margin-top: -30px;
+}
+
+.payment-methods__price {
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.payment-methods__primary-cell {
+  width: 400px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 45px;
+}
+
+.payment-methods__secondary-cell {
+  width: 190px;
+  padding-top: 50px;
+  padding-right: 0;
+  padding-bottom: 45px;
+  padding-left: 40px;
+}
+
+.payment-methods__figure {
+  height: 107px;
+}
+
+.payment-methods__figure img {
+  display: block;
+}
+
+.payment-methods__figure--ticket-and-token {
+  height: 99px;
+  padding-top: 6px;
+}
+
+.payment-methods__buttons {
+  margin-top: 10px;
+}
+
+.payment-methods__btn {
+  margin-bottom: 5px;
+}
+
+.paypass-icon {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  padding-left: 4px;
+}
+
+.paypass-icon--in-text {
+  top: 2px;
+  padding-right: 3px;
+}
+
+.payment-methods__plans-table {
+  margin-bottom: 20px;
+}
+
+.payment-methods__plan-first-cell {
+  width: 125px;
+}
+
+.payment-methods__plan-sum {
+  width: 95px;
 }

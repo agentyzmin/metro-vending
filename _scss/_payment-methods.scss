@@ -1,0 +1,72 @@
+
+/*  Payment methods page
+    ======================================================== */
+
+.payment-methods {
+  margin-top: -30px;
+}
+
+.payment-methods__price {
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.payment-methods__primary-cell {
+  width: 400px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 45px;
+}
+
+.payment-methods__secondary-cell {
+  width: 190px;
+  padding-top: 50px;
+  padding-right: 0;
+  padding-bottom: 45px;
+  padding-left: 40px;
+}
+
+.payment-methods__figure {
+  height: 107px;
+  
+  img {
+    display: block;
+  }
+
+  &--ticket-and-token {
+    height: 99px;
+    padding-top: 6px;
+  }
+}
+
+.payment-methods__buttons {
+  margin-top: 10px;
+}
+
+.payment-methods__btn {
+  margin-bottom: 5px;
+}
+
+.paypass-icon {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  padding-left: 4px;
+  
+  &--in-text {
+    top: 2px;
+    padding-right: 3px;
+  }
+}
+
+.payment-methods__plans-table {
+  margin-bottom: 20px;
+}
+
+.payment-methods__plan-first-cell {
+  width: 125px;
+}
+
+.payment-methods__plan-sum {
+  width: 95px;
+}

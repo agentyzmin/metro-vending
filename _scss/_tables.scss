@@ -47,6 +47,14 @@ h3 + .table {
   text-align: right;
 }
 
+.table--medium {
+  .cell {
+    padding: 18px 0 22px;
+    font-size: 40px;
+    font-weight: 300;
+  }
+}
+
 .table--compact {
   .head-cell,
   .cell {
@@ -60,10 +68,15 @@ h3 + .table {
   }
 }
 
-.table--medium {
+.table--extra-compact {
+  .head-cell,
   .cell {
-    padding: 18px 0 22px;
-    font-size: 40px;
+    border-bottom: 1px solid $table-border;
+  }
+
+  .cell {
+    padding: 8px 0;
+    font-size: 20px;
     font-weight: 300;
   }
 }
@@ -72,7 +85,7 @@ h3 + .table {
   padding: 10px 0 14px;
 }
 
-.table__last-row .cell {
+.table__last-row > .cell {
   border-bottom: none;
 }
 
@@ -91,15 +104,11 @@ h3 + .table {
   margin-left: 0.3em;
 }
 
-.cell--strong,
-.table--compact .cell--strong,
-.table--medium .cell--strong {
+.table .cell--strong {
   font-weight: 500;
 }
 
-.cell--light,
-.table--compact .cell--light,
-.table--medium .cell--light {
+.table .cell--light {
   font-weight: 300;
 }
 
