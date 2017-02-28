@@ -1,0 +1,21 @@
+/*  Keyboard (enter how many journeys you want to buy)
+    ======================================================== */
+.keyboard__cell {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.keyboard__btn {
+  font-size: 60px;
+  width: 70px;
+  max-height: 70px;
+  padding: 17px 15px;
+}
+
+.keyboard__btn--backspace {
+  width: 190px;
+  text-indent: -9999px;
+  background-image: url("../i/icon-backspace.png");
+  background-repeat: no-repeat;
+  background-position: 45% center;
+}

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /02-1-metrocard/journeys-manual-enter.html
+permalink: /03-metropass/journeys-manual-enter.html
 back-button: true
 instructions:
   title: Введіть кількість поїздок
@@ -12,16 +12,30 @@ instructions:
     
     <h2>На картці</h2>
 
-    <div class="tableau">
-      <div class="tableau__money">
-        <div class="tableau__value">3<span class="sum-fraction">,80</span> <span class="currency">₴</span></div>
-        <div class="tableau__value-description">залишок</div>
-      </div>
-
-      <div class="tableau__journeys tableau__journeys--empty">
-        <div class="tableau__value">0</div>
-        <div class="tableau__value-description">поїздок</div>
-      </div>
+    <div class="tableau tableau--metropass tableau--has-table">
+      <table class="tableau__table table">
+        <tbody>
+          <tr class="table__bank-card-details">
+            <td class="cell" colspan="3">
+              <span class="bank-card-info">
+                **** 0525
+                <span class="bank-card-info__expiration">09/20</span>
+              </span>
+            </td>
+          </tr>
+          <tr class="tableau__main-row table__last-row">
+            <td class="tableau__cell-name cell">
+              Тариф<br>не підключено
+            </td>
+            <td class="tableau__cell-days cell cell--right">
+              &nbsp;
+            </td>
+            <td class="tableau__cell-journeys cell cell--right">
+              &nbsp;
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div> <!-- /tableau -->
 
     {% include instructions.html %}

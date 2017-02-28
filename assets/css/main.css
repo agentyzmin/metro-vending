@@ -734,6 +734,12 @@ h3 + .table {
   font-weight: 500;
 }
 
+.cell--light,
+.table--compact .cell--light,
+.table--medium .cell--light {
+  font-weight: 300;
+}
+
 .cell--warning {
   color: #fb3535;
 }
@@ -1232,6 +1238,69 @@ h3 + .table {
 
 .result-screen__service-center-address {
   margin-bottom: 20px;
+}
+
+/*  Keyboard (enter how many journeys you want to buy)
+    ======================================================== */
+.keyboard-section {
+  margin: 60px 0;
+  overflow: hidden;
+}
+
+.keyboard-section__left {
+  float: left;
+  width: 420px;
+  margin-right: 100px;
+}
+
+.keyboard-section__right {
+  float: left;
+  width: 360px;
+}
+
+.keyboard-section__input-wrapper {
+  margin-bottom: 78px;
+}
+
+.keyboard-section__table {
+  margin-bottom: 0;
+}
+
+.keyboard-input {
+  background-color: #151527;
+  padding: 20px 40px 28px;
+  font-size: 160px;
+  color: #fff;
+  width: 340px;
+  border: none;
+  border-radius: 8px;
+  line-height: 1;
+  font-weight: medium;
+  box-shadow: 0 2px 0 #424261, inset 0 4px 0 #020118;
+}
+
+.keyboard-input:focus {
+  outline: none;
+}
+
+.keyboard__cell {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.keyboard__btn {
+  font-size: 60px;
+  width: 70px;
+  max-height: 70px;
+  padding: 17px 15px;
+}
+
+.keyboard__btn--backspace {
+  width: 190px;
+  text-indent: -9999px;
+  background-image: url("../i/icon-backspace.png");
+  background-repeat: no-repeat;
+  background-position: 45% center;
 }
 
 /*  01-Tickets

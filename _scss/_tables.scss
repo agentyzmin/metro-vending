@@ -97,6 +97,12 @@ h3 + .table {
   font-weight: 500;
 }
 
+.cell--light,
+.table--compact .cell--light,
+.table--medium .cell--light {
+  font-weight: 300;
+}
+
 .cell--warning {
   color: $red;
 }
