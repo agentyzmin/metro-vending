@@ -11,5 +11,9 @@
 }
 
 .tableau--metropass {
+  min-height: 364px;
   
+  .tableau__main-row .cell {
+    padding-top: 36px;
+  }
 }
