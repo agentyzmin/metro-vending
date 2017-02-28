@@ -457,6 +457,20 @@ h3 {
   width: 265px;
 }
 
+.btn--medium {
+  padding: 25px 40px 30px;
+  font-size: 40px;
+}
+
+.btn--current {
+  background-color: #9a97b3;
+  box-shadow: 0 6px 0 #151527, inset 0 2px 0 #9191bb;
+}
+
+.btn--left {
+  text-align: left;
+}
+
 .btn--back {
   vertical-align: top;
 }
@@ -1304,4 +1318,21 @@ h3 + .table {
 
 .tableau--metropass .tableau__main-row .cell {
   padding-top: 36px;
+}
+
+/*  Languages
+    ======================================================== */
+.languages {
+  overflow: hidden;
+}
+
+.languages__first {
+  float: left;
+  width: 420px;
+  margin-right: 40px;
+}
+
+.languages__second {
+  float: left;
+  width: 420px;
 }

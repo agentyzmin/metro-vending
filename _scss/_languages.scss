@@ -1,0 +1,18 @@
+
+/*  Languages
+    ======================================================== */
+
+.languages {
+  overflow: hidden;
+  
+  &__first {
+    float: left;
+    width: 420px;
+    margin-right: 40px;
+  }
+
+  &__second {
+    float: left;
+    width: 420px;
+  }
+}
