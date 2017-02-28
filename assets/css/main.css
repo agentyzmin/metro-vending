@@ -960,6 +960,13 @@ h3 + .table {
   width: 200px;
 }
 
+.tableau__small-note {
+  font-size: 20px;
+  color: #68657d;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
 /*  Instructions (they say people what to do)
     ======================================================== */
 .instructions {
