@@ -135,10 +135,10 @@
   white-space: normal;
   text-align: left;
   border: 2px solid $btn-bg;
-  padding: 30px 42px;
+  padding: 25px 40px 20px 86px;
   line-height: 1.2;
-  width: 332px; // 420 - 2*2 - 42*2
-  height: 236px; // 300 - 2*2 - 30*2
+  width: 290px; // 420 - 2*2 - 40 - 86
+  height: 251px; // 300 - 2*2 - 25 - 20
   box-shadow: none;
   
   &:active {
@@ -210,6 +210,10 @@
   padding: 0;
   overflow: hidden;
   
+  &__title {
+    margin-bottom: 10px;
+  }
+  
   &__item {
     width: 420px;
     margin: 0 20px 40px;
@@ -217,6 +221,10 @@
     
     float: left;
     list-style-type: none;
+  }
+
+  &__item--warning {
+    background: url('../i/icon-triangle-warning-small.png') no-repeat 20px 30px;
   }
 }
 

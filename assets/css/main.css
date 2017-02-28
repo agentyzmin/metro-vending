@@ -527,10 +527,10 @@ h3 {
   white-space: normal;
   text-align: left;
   border: 2px solid #68657d;
-  padding: 30px 42px;
+  padding: 25px 40px 20px 86px;
   line-height: 1.2;
-  width: 332px;
-  height: 236px;
+  width: 290px;
+  height: 251px;
   box-shadow: none;
 }
 
@@ -603,12 +603,20 @@ h3 {
   overflow: hidden;
 }
 
+.buttons-list__title {
+  margin-bottom: 10px;
+}
+
 .buttons-list__item {
   width: 420px;
   margin: 0 20px 40px;
   padding: 0;
   float: left;
   list-style-type: none;
+}
+
+.buttons-list__item--warning {
+  background: url("../i/icon-triangle-warning-small.png") no-repeat 20px 30px;
 }
 
 .instructions + .buttons-list {
