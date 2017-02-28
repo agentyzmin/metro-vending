@@ -275,6 +275,7 @@ h2 + .text--prominent {
 
 h3 {
   font-size: 28px;
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 
@@ -379,6 +380,18 @@ h3 {
 
 .trademark--mastercard-title {
   top: -4em;
+}
+
+.bank-card-info {
+  display: block;
+  min-height: 32px;
+  background: url("../i/icon-mastercard-small.png") no-repeat 0 0;
+  font-size: 28px;
+  padding-left: 64px;
+}
+
+.bank-card-info__expiration {
+  padding-left: 0.67em;
 }
 
 /*  Buttons
@@ -545,8 +558,7 @@ h3 {
 }
 
 .btn-group {
-  margin-top: 40px;
-  margin-bottom: 80px;
+  margin: 40px 0;
 }
 
 .btn-group__item {
@@ -561,7 +573,7 @@ h3 {
   padding: 0;
 }
 
-.btn--mixed__quantity {
+.btn--mixed__item {
   position: absolute;
   top: 26px;
   left: 40px;
@@ -579,7 +591,7 @@ h3 {
 
 .btn--mixed__sum {
   position: absolute;
-  width: 150px;
+  width: 300px;
   top: 26px;
   right: 40px;
   text-align: right;
@@ -702,6 +714,11 @@ h3 + .table {
 
 .cell--warning {
   color: #fb3535;
+}
+
+.table__bank-card-details .cell {
+  padding-top: 12px;
+  padding-bottom: 25px;
 }
 
 /*  Modal
@@ -952,6 +969,7 @@ h3 + .table {
 }
 
 .instructions__title {
+  margin-top: 0;
   margin-bottom: 20px;
   font-size: 60px;
   color: #f4dd80;

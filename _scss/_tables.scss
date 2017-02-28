@@ -100,3 +100,10 @@ h3 + .table {
 .cell--warning {
   color: $red;
 }
+
+.table__bank-card-details {
+  .cell {
+    padding-top: 12px;
+    padding-bottom: 25px;
+  }
+}
