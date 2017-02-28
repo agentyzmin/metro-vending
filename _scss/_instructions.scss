@@ -16,6 +16,12 @@
     line-height: 1.125;
   }
 
+  &__subtitle {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
   &--neutral .instructions__title {
     color: #fff;
     margin-bottom: 40px; // for better contrast between equal colors

@@ -1,35 +1,36 @@
 ---
 layout: default
-permalink: /02-2-monthly-pass/inactive-pass.html
+permalink: /03-metropass/choose-monthly-pass.html
+back-button: true
 instructions:
   title: Оберіть проїзний на лютий
 ---
 
 <div class="main">
   <div class="container">
-    
+
     <h2>На картці</h2>
 
     <div class="tableau tableau--has-table">
       <table class="tableau__table table">
         <tbody>
-          <tr class="tableau__main-row">
+          <tr class="table__bank-card-details">
+            <td class="cell" colspan="3">
+              <span class="bank-card-info">
+                **** 0525
+                <span class="bank-card-info__expiration">09/20</span>
+              </span>
+            </td>
+          </tr>
+          <tr class="tableau__main-row table__last-row">
             <td class="tableau__cell-name cell">
-              Немає<br>дійсних<br>проїзних
+              Тариф<br>не підключено
             </td>
             <td class="tableau__cell-days cell cell--right">
               &nbsp;
             </td>
             <td class="tableau__cell-journeys cell cell--right">
               &nbsp;
-            </td>
-          </tr>
-          <tr class="table__last-row">
-            <td class="cell">
-              Залишок
-            </td>
-            <td class="cell cell--right cell--strong" colspan="2">
-              3,80 <span class="currency">₴</span>
             </td>
           </tr>
         </tbody>
@@ -64,5 +65,13 @@ instructions:
       Проїзні на другу половину місяця продаються за півціни з 14 числа. Невикористані поїздки не переносяться на наступний місяць.
     </p>
 
-  </div>
+  </div> <!-- /container -->
 </div> <!-- /main -->
+
+<div class="footer">
+  <a class="learn-more-link" href="#">
+    <div class="container learn-more-link__container">
+      <span class="learn-more-link__text">Як працює MetroPass</span>
+    </div>
+  </a>
+</div> <!-- /footer -->

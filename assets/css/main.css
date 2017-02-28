@@ -684,7 +684,7 @@ h3 + .table {
 }
 
 .table__row-compact .cell {
-  padding: 10px 0 12px;
+  padding: 10px 0 14px;
 }
 
 .table__last-row .cell {
@@ -975,6 +975,12 @@ h3 + .table {
   color: #f4dd80;
   font-weight: 500;
   line-height: 1.125;
+}
+
+.instructions__subtitle {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .instructions--neutral .instructions__title {
