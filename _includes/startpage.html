@@ -16,7 +16,7 @@
 
       <li class="buttons-list__item">
         <a class="btn btn--big-pic btn--big-pic--metropass" href="#">
-          MetroPass
+          Підключити MetroPass
         </a>
       </li>
 
@@ -28,22 +28,20 @@
       </li>
 
       {% else %}
-      <li class="buttons-list__item buttons-list__item--warning">
+      <li class="buttons-list__item">
         <div class="btn btn--pseudo-big-pic">
-          <h2 class="buttons-list__title">Купівля карток недоступна</h2>
-          <p class="text">В автоматі скінчились картки. Скористайтесь іншим автоматом.</p>
+          <h2 class="buttons-list__title">Цей автомат не продає карток</h2>
+          <p class="text">Скористайтесь автоматом «Продаж карток».</p>
         </div>
       </li>
       {% endif %}
     </ul>
 
+    <div class="bottom-btn-wrapper">
+      <a class="btn btn--info" href="#">
+        <span class="btn--info__text">Види оплати проїзду</span>
+      </a>
+    </div>
+
   </div> <!-- /container -->
 </div> <!-- /main -->
-
-<div class="footer">
-  <a class="learn-more-link" href="#">
-    <div class="container learn-more-link__container">
-      <span class="learn-more-link__text">Види оплати проїзду</span>
-    </div>
-  </a>
-</div> <!-- /footer -->

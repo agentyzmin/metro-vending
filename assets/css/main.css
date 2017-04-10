@@ -292,6 +292,10 @@ h4 {
   margin-bottom: 20px;
 }
 
+.text--info {
+  color: #fff;
+}
+
 .text--prominent {
   color: #fff;
   font-size: 40px;
@@ -309,6 +313,18 @@ h4 {
 
 .text--strong {
   font-weight: 500;
+}
+
+.text--warning {
+  color: #f4dd80;
+  font-weight: 500;
+}
+
+.text--warning-with-sign {
+  margin-top: 40px;
+  padding-left: 55px;
+  background: url("../i/icon-triangle-warning-tiny.png") no-repeat 0 0px;
+  padding-top: 2px;
 }
 
 .text--prominent + .text--prominent {
@@ -410,6 +426,15 @@ h4 {
   padding-left: 0.67em;
 }
 
+.your-plan {
+  margin-bottom: 80px;
+  font-weight: 400;
+}
+
+.tableau + .your-plan {
+  margin-top: -40px;
+}
+
 /*  Buttons
     ======================================================== */
 .btn {
@@ -494,6 +519,22 @@ h4 {
   text-align: left;
 }
 
+.btn--info {
+  display: block;
+  font-size: 40px;
+  padding: 36px 110px;
+  text-align: left;
+  padding: 36px 110px 38px;
+  background-image: url("../i/icon-info.png");
+  background-repeat: no-repeat;
+  background-position: 40px 47%;
+}
+
+.btn--info__text {
+  background: url("../i/icon-learn-more.png") no-repeat right 61%;
+  padding-right: 30px;
+}
+
 .btn--back {
   vertical-align: top;
 }
@@ -564,16 +605,25 @@ h4 {
   white-space: normal;
   text-align: left;
   border: 2px solid #68657d;
-  padding: 25px 40px 20px 86px;
+  padding: 25px 40px 20px;
   line-height: 1.2;
-  width: 290px;
+  width: 336px;
   height: 251px;
   box-shadow: none;
+  border-radius: 0;
 }
 
 .btn--pseudo-big-pic:active {
   box-shadow: none;
   background-color: transparent;
+}
+
+.btn--pseudo-big-pic .buttons-list__title {
+  font-size: 28px;
+}
+
+.btn--pseudo-big-pic .text {
+  font-size: 24px;
 }
 
 .btn--buy {
@@ -634,6 +684,10 @@ h4 {
   text-align: right;
 }
 
+.btn--separated {
+  margin-top: 80px;
+}
+
 .buttons-list {
   margin: 0 -20px;
   padding: 0;
@@ -656,12 +710,23 @@ h4 {
   background: url("../i/icon-triangle-warning-small.png") no-repeat 23px 29px;
 }
 
+.buttons-list__item--warning .btn--pseudo-big-pic {
+  padding-left: 86px;
+  width: 290px;
+}
+
 .instructions + .buttons-list {
   margin-top: 40px;
 }
 
 .btn-wrapper {
   margin-top: 40px;
+}
+
+.bottom-btn-wrapper {
+  position: absolute;
+  top: 1480px;
+  width: 100%;
 }
 
 /*  Tables
@@ -887,28 +952,6 @@ h3 + .table {
 .footer__hint-btn-wrapper {
   margin-top: 25px;
   margin-bottom: 60px;
-}
-
-.learn-more-link {
-  display: block;
-  background-color: #151527;
-  color: #fff;
-}
-
-.learn-more-link:active {
-  background-color: #111120;
-}
-
-.learn-more-link__container {
-  background: url("../i/icon-info.png") no-repeat 0 50%;
-  padding: 36px 0 36px;
-}
-
-.learn-more-link__text {
-  display: inline-block;
-  padding-right: 35px;
-  padding-left: 70px;
-  background: url("../i/icon-learn-more.png") no-repeat right 61%;
 }
 
 /*  Tableau
@@ -1384,7 +1427,7 @@ h3 + .table {
 
 .metrocard-plans--fixed {
   position: absolute;
-  top: 820px;
+  top: 980px;
 }
 
 .metrocard-plans--in-footer {

@@ -85,6 +85,22 @@
   text-align: left;
 }
 
+.btn--info {
+  display: block;
+  font-size: 40px;
+  padding: 36px 110px;
+  text-align: left;
+  padding: 36px 110px 38px;
+  background-image: url('../i/icon-info.png');
+  background-repeat: no-repeat;
+  background-position: 40px 47%;
+
+  &__text {
+    background: url('../i/icon-learn-more.png') no-repeat right 61%;
+    padding-right: 30px;
+  }
+}
+
 .btn--back {
   vertical-align: top;
 }
@@ -157,15 +173,24 @@
   white-space: normal;
   text-align: left;
   border: 2px solid $btn-bg;
-  padding: 25px 40px 20px 86px;
+  padding: 25px 40px 20px;
   line-height: 1.2;
-  width: 290px; // 420 - 2*2 - 40 - 86
+  width: 336px; // 420 - 2*2 - 40 - 40
   height: 251px; // 300 - 2*2 - 25 - 20
   box-shadow: none;
+  border-radius: 0;
   
   &:active {
     box-shadow: none;
     background-color: transparent;
+  }
+
+  .buttons-list__title {
+    font-size: 28px;
+  }
+
+  .text {
+    font-size: 24px;
   }
 }
 
@@ -227,6 +252,10 @@
   }
 }
 
+.btn--separated {
+  margin-top: 80px;
+}
+
 .buttons-list {
   margin: 0 -20px;
   padding: 0;
@@ -247,6 +276,11 @@
 
   &__item--warning {
     background: url('../i/icon-triangle-warning-small.png') no-repeat 23px 29px;
+    
+    .btn--pseudo-big-pic {
+      padding-left: 86px;
+      width: 290px;
+    }
   }
 }
 
@@ -256,4 +290,10 @@
 
 .btn-wrapper {
   margin-top: 40px;
+}
+
+.bottom-btn-wrapper {
+  position: absolute;
+  top: 1480px;
+  width: 100%;
 }

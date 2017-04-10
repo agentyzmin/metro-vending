@@ -58,6 +58,11 @@ h4 {
   line-height: 1.32;
   margin-bottom: 20px;
   
+  &--info {
+    color: #fff;
+    // font-weight: 400;
+  }
+  
   &--prominent {
     color: #fff;
     font-size: 40px;
@@ -75,6 +80,18 @@ h4 {
 
   &--strong {
     font-weight: 500;
+  }
+
+  &--warning {
+    color: $yellow;
+    font-weight: 500;
+  }
+
+  &--warning-with-sign {
+    margin-top: 40px;
+    padding-left: 55px;
+    background: url('../i/icon-triangle-warning-tiny.png') no-repeat 0 0px;
+    padding-top: 2px;
   }
 }
 
@@ -174,5 +191,14 @@ h4 {
   
   &__expiration {
     padding-left: 0.67em;
+  }
+}
+
+.your-plan {
+  margin-bottom: 80px;
+  font-weight: 400;
+  
+  .tableau + & {
+    margin-top: -40px;
   }
 }
