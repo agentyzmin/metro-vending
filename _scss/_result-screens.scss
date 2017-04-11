@@ -14,6 +14,11 @@
   &__title {
     font-size: 80px;
     margin-bottom: 40px;
+    
+    &--attention {
+      color: $yellow;
+      font-size: 60px;
+    }
   }
 
   &__description {

@@ -7,7 +7,7 @@
   </div>
   {% endif %}
 
-  <h1 class="result-screen__title">
+  <h1 class="result-screen__title{% if page.result-screen.attention %} result-screen__title--attention{% endif %}">
     {{ page.result-screen.title }}
   </h1>
 
