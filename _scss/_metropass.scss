@@ -3,17 +3,16 @@
     ======================================================== */
 
 .instructions--metropass {
-  position: absolute;
   width: 440px;
-  top: 240px;
-  right: 0;
+  padding-top: 254px;
   text-align: right;
+  float: right;
 }
 
 .instructions--metropass-error {
   width: 520px;
-  position: absolute;
   top: 630px;
+  
   .instructions__title {
     color: #fff;
   }
@@ -188,5 +187,15 @@
     position: absolute;
     // top: 26px;
     right: 0;
+  }
+}
+
+.metropass-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 80px;
+  
+  &--closer-to-top {
+    margin-top: -40px;
   }
 }
