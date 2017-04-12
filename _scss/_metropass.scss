@@ -138,3 +138,46 @@
   font-size: 40px;
   padding: 35px 10px 39px;
 }
+
+.metropass-footer {
+  .container {
+    padding-top: 26px;
+    border-top: 2px solid $table-border;
+    height: 125px;
+  }
+  
+  &__logos {
+    position: absolute;
+    // top: 26px;
+    left: 0;
+  }
+
+  &__logo {
+    vertical-align: top;
+    margin-right: 30px;
+  }
+
+  &__contacts {
+    color: #9a97b3;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  &__contact {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  &__learn-more {
+    position: absolute;
+    // top: 26px;
+    left: 310px;
+  }
+
+  &__hotline {
+    position: absolute;
+    // top: 26px;
+    right: 0;
+  }
+}

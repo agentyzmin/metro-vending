@@ -1624,6 +1624,44 @@ h3 + .table {
   padding: 35px 10px 39px;
 }
 
+.metropass-footer .container {
+  padding-top: 26px;
+  border-top: 2px solid #514f68;
+  height: 125px;
+}
+
+.metropass-footer__logos {
+  position: absolute;
+  left: 0;
+}
+
+.metropass-footer__logo {
+  vertical-align: top;
+  margin-right: 30px;
+}
+
+.metropass-footer__contacts {
+  color: #9a97b3;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.metropass-footer__contact {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.metropass-footer__learn-more {
+  position: absolute;
+  left: 310px;
+}
+
+.metropass-footer__hotline {
+  position: absolute;
+  right: 0;
+}
+
 /*  Languages
     ======================================================== */
 .languages {
