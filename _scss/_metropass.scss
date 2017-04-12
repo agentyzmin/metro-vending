@@ -10,6 +10,15 @@
   text-align: right;
 }
 
+.instructions--metropass-error {
+  width: 520px;
+  position: absolute;
+  top: 630px;
+  .instructions__title {
+    color: #fff;
+  }
+}
+
 .tableau--metropass {
   min-height: 364px;
   
