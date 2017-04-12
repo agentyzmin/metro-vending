@@ -2,11 +2,20 @@
   <div class="container">
     
     <ul class="buttons-list">
+      {% if page.tickets-available %}
       <li class="buttons-list__item">
         <a class="btn btn--big-pic btn--big-pic--ticket" href="../01-tickets/">
           Придбати разовий квиток
         </a>
       </li>
+      {% else %}
+      <li class="buttons-list__item buttons-list__item--warning">
+        <div class="btn btn--pseudo-big-pic">
+          <h2 class="buttons-list__title">Купівля квитка недоступна</h2>
+          <p class="text">В автоматі скінчився папір. Скористайтесь іншим автоматом.</p>
+        </div>
+      </li>
+      {% endif %}
 
       <li class="buttons-list__item">
         <a class="btn btn--big-pic btn--big-pic--card-recharge" href="#">
@@ -34,13 +43,6 @@
           <p class="text">Скористайтесь іншим автоматом.</p>
         </div>
       </li>
-
-      <!-- <li class="buttons-list__item buttons-list__item--warning">
-        <div class="btn btn--pseudo-big-pic">
-          <h2 class="buttons-list__title">Купівля квитка недоступна</h2>
-          <p class="text">В автоматі скінчився папір. Скористайтесь іншим автоматом.</p>
-        </div>
-      </li> -->
       {% endif %}
     </ul>
 
