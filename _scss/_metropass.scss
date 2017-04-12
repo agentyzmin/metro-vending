@@ -17,3 +17,124 @@
     padding-top: 36px;
   }
 }
+
+.metropass-list {
+  color: #fff;
+  font-weight: 300;
+  list-style-type: none;
+  padding: 0;
+  
+  &__item {
+    position: relative;
+    padding-left: 24px;
+  }
+
+  &__bullet {
+    color: #f59e00;
+    position: absolute;
+    left: -0.04em;
+  }
+}
+
+.item-info--metropass {
+  margin-top: 0;
+  margin-bottom: 160px;
+  
+  .item-info__title {
+    width: 670px;
+    margin-bottom: 40px;
+  }
+
+  .item-info__metropass-with-waves {
+    display: inline-block;
+    padding-right: 58px;
+    background: url('../i/metropass-title-waves.png') no-repeat right 80%;
+  }
+
+  .item-info__text {
+    float: none;
+    width: 565px;
+  }
+
+  .item-info__figure {
+    float: none;
+    width: 412px;
+    height: 733px;
+    position: absolute;
+    margin-top: 0;
+    top: -42px;
+    right: -100px;
+  }
+
+  .item-info__img {
+    right: 0;
+  }
+}
+
+.metropass-howto {
+  margin-top: 60px;
+  margin-bottom: 80px;
+
+  &__step {
+    float: left;
+    position: relative;
+    
+    &--1 {
+      width: 294px;
+      margin-right: 28px;
+    }
+
+    &--2 {
+      width: 277px;
+      margin-right: 36px;
+    }
+    
+    &--3 {
+      width: 245px;
+      margin-right: 0;
+    }
+  }
+
+  &__step-number {
+    font-weight: 300;
+    color: #9a97b3;
+    font-size: 40px;
+    position: absolute;
+    top: -8px;
+    left: -38px;
+    
+    &--3 {
+      left: -23px;
+    }
+  }
+
+  &__image {
+    height: 200px;
+    position: relative;
+    
+    &--1 {
+      top: -42px;
+      left: -40px;
+    }
+
+    &--3 {
+      top: -20px;
+      left: 10px;
+    }
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    font-size: 20px;
+    color: #fff;
+  }
+}
+
+.metropass-connect-btn {
+  font-size: 40px;
+  padding: 35px 10px 39px;
+}

@@ -414,6 +414,10 @@ h4 {
   top: -4em;
 }
 
+.trademark--mastercard-subtitle {
+  top: -2.5em;
+}
+
 .bank-card-info {
   display: block;
   min-height: 32px;
@@ -1497,6 +1501,127 @@ h3 + .table {
 
 .tableau--metropass .tableau__main-row .cell {
   padding-top: 36px;
+}
+
+.metropass-list {
+  color: #fff;
+  font-weight: 300;
+  list-style-type: none;
+  padding: 0;
+}
+
+.metropass-list__item {
+  position: relative;
+  padding-left: 24px;
+}
+
+.metropass-list__bullet {
+  color: #f59e00;
+  position: absolute;
+  left: -0.04em;
+}
+
+.item-info--metropass {
+  margin-top: 0;
+  margin-bottom: 160px;
+}
+
+.item-info--metropass .item-info__title {
+  width: 670px;
+  margin-bottom: 40px;
+}
+
+.item-info--metropass .item-info__metropass-with-waves {
+  display: inline-block;
+  padding-right: 58px;
+  background: url("../i/metropass-title-waves.png") no-repeat right 80%;
+}
+
+.item-info--metropass .item-info__text {
+  float: none;
+  width: 565px;
+}
+
+.item-info--metropass .item-info__figure {
+  float: none;
+  width: 412px;
+  height: 733px;
+  position: absolute;
+  margin-top: 0;
+  top: -42px;
+  right: -100px;
+}
+
+.item-info--metropass .item-info__img {
+  right: 0;
+}
+
+.metropass-howto {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.metropass-howto__step {
+  float: left;
+  position: relative;
+}
+
+.metropass-howto__step--1 {
+  width: 294px;
+  margin-right: 28px;
+}
+
+.metropass-howto__step--2 {
+  width: 277px;
+  margin-right: 36px;
+}
+
+.metropass-howto__step--3 {
+  width: 245px;
+  margin-right: 0;
+}
+
+.metropass-howto__step-number {
+  font-weight: 300;
+  color: #9a97b3;
+  font-size: 40px;
+  position: absolute;
+  top: -8px;
+  left: -38px;
+}
+
+.metropass-howto__step-number--3 {
+  left: -23px;
+}
+
+.metropass-howto__image {
+  height: 200px;
+  position: relative;
+}
+
+.metropass-howto__image--1 {
+  top: -42px;
+  left: -40px;
+}
+
+.metropass-howto__image--3 {
+  top: -20px;
+  left: 10px;
+}
+
+.metropass-howto__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.metropass-howto__description {
+  font-size: 20px;
+  color: #fff;
+}
+
+.metropass-connect-btn {
+  font-size: 40px;
+  padding: 35px 10px 39px;
 }
 
 /*  Languages
