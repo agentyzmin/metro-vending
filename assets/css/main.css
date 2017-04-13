@@ -1163,6 +1163,14 @@ h3 + .table {
   opacity: 0.4;
 }
 
+.action-image__comment {
+  position: absolute;
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.2;
+}
+
 .action-image__arrow--bottom {
   bottom: 0;
   left: 50%;
@@ -1175,10 +1183,22 @@ h3 + .table {
   margin-right: -20px;
 }
 
+.action-image--insert-cash .action-image__comment {
+  width: 130px;
+  top: 0;
+  left: -135px;
+}
+
 .action-image--ticket-out {
   width: 100px;
   height: 144px;
   margin-left: 20px;
+}
+
+.action-image--ticket-out .action-image__comment {
+  width: 130px;
+  top: 0;
+  left: 130px;
 }
 
 .action-image--insert-bank-card {
@@ -1194,6 +1214,12 @@ h3 + .table {
   right: 0;
 }
 
+.action-image--insert-bank-card .action-image__comment {
+  width: 160px;
+  top: 300px;
+  left: 0;
+}
+
 .action-image--bank-card-out {
   position: absolute;
   width: 250px;
@@ -1207,6 +1233,12 @@ h3 + .table {
   right: 0;
 }
 
+.action-image--bank-card-out .action-image__comment {
+  width: 160px;
+  top: 250px;
+  left: 0;
+}
+
 .action-image--enter-pin {
   position: absolute;
   width: 215px;
@@ -1218,6 +1250,12 @@ h3 + .table {
 .action-image--enter-pin .action-image__arrow {
   top: 52px;
   right: 0;
+}
+
+.action-image--enter-pin .action-image__comment {
+  width: 140px;
+  top: 180px;
+  left: 0;
 }
 
 .action-image--metrocard-in {
@@ -1246,6 +1284,12 @@ h3 + .table {
   right: 0;
 }
 
+.action-image--metrocard-out .action-image__comment {
+  width: 200px;
+  top: 250px;
+  left: 0;
+}
+
 .action-image--metropass-waiting {
   position: absolute;
   width: 415px;
@@ -1270,6 +1314,12 @@ h3 + .table {
 .action-image--bought-metrocard-out .action-image__arrow {
   top: 136px;
   left: -70px;
+}
+
+.action-image--bought-metrocard-out .action-image__comment {
+  width: 200px;
+  top: 0;
+  left: 210px;
 }
 
 .action-image--metrocard-and-bank-card-out {
