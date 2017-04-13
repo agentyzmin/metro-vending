@@ -3,7 +3,7 @@ layout: default
 permalink: /04-buy-metrocard/success--get-both-cards.html
 result-screen:
   title: Заберіть картки
-  description: Заберіть придбану картку метро ліворуч від екрана та банківську картку праворуч.<br><br>На картці метро немає поїздок, вставте її праворуч для поповнення.
+  description: Заберіть придбану картку метро ліворуч від екрана та банківську картку праворуч.
   narrow: true
   icon:
     src: status-ok-metrocard.png
@@ -16,6 +16,10 @@ result-screen:
 
     {% include result-screen.html %}
 
+    <div class="warning-note warning-note--both-cards">
+      На картці немає поїздок, вставте її праворуч для поповнення
+    </div>
+
     <div class="action-image action-image--bank-card-out">
       <img class="action-image__img" src="../assets/i/bank-card-out.png" width="170" height="231">
       <img class="action-image__arrow" src="../assets/i/icon-arrow-right.png" width="19" height="40">
@@ -25,6 +29,7 @@ result-screen:
       <img class="action-image__img" src="../assets/i/metrocard-out.png" width="170" height="231">
       <img class="action-image__arrow" src="../assets/i/icon-arrow-left.png" width="19" height="40">
     </div>
+
 
   </div> <!-- /container -->
 </div> <!-- /main -->

@@ -216,4 +216,15 @@ h4 {
   font-weight: 500;
   font-size: 40px;
   line-height: 1.2;
+  
+  &--both-cards {
+    max-width: 520px;
+    position: absolute;
+    margin-top: 0;
+    top: 1424px;
+    left: 220px;
+    padding-left: 0;
+    background: none;
+    color: $yellow;
+  }
 }

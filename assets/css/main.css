@@ -450,6 +450,17 @@ h4 {
   line-height: 1.2;
 }
 
+.warning-note--both-cards {
+  max-width: 520px;
+  position: absolute;
+  margin-top: 0;
+  top: 1424px;
+  left: 220px;
+  padding-left: 0;
+  background: none;
+  color: #f4dd80;
+}
+
 /*  Buttons
     ======================================================== */
 .btn {
@@ -1011,6 +1022,11 @@ h3 + .table {
 
 .tableau__value--in-progress .currency {
   color: #2d2c41 !important;
+}
+
+.tableau__value--infinity {
+  font-size: 105px;
+  margin-bottom: 15px;
 }
 
 .tableau__value-description {
