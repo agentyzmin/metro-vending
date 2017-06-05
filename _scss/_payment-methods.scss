@@ -33,9 +33,13 @@
     display: block;
   }
 
+  &--contactless-cards {
+    height: 146px;
+  }
+
   &--ticket-and-token {
-    height: 99px;
-    padding-top: 6px;
+    padding-top: 52px;
+    height: 94px;
   }
 }
 

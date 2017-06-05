@@ -1420,6 +1420,11 @@ h3 + .table {
   margin-bottom: 20px;
 }
 
+.result-screen__service-center-time {
+  margin-top: 10px;
+  padding-left: 55px;
+}
+
 /*  Keyboard (enter how many journeys you want to buy)
     ======================================================== */
 .keyboard-section {
@@ -1809,9 +1814,13 @@ h3 + .table {
   display: block;
 }
 
+.payment-methods__figure--contactless-cards {
+  height: 146px;
+}
+
 .payment-methods__figure--ticket-and-token {
-  height: 99px;
-  padding-top: 6px;
+  padding-top: 52px;
+  height: 94px;
 }
 
 .payment-methods__buttons {
